@@ -5,22 +5,44 @@
 
 ---
 
-## 📖 1. Core Vocabulary (领域核心词汇)
+## 📚 1. Core Vocabulary (领域核心词汇 - 增强版)
+
+### 🔬 Physics & Device Terminology (物理与器件)
 
 | Word | IPA | Chinese | Context & Note |
 | :--- | :--- | :--- | :--- |
-| **Ferroelectric** | /ˌfɛroʊɪˈlɛktrɪk/ | 铁电的 | **Key Concept**: Polarization direction controls the band alignment. |
-| **Tunneling** | /ˈtʌnlɪŋ/ | 隧穿 | **Mechanism**: Quantum transport through h-BN barrier. |
-| **Van der Waals** | /ˌvæn dər ˈwɑːlz/ | 范德华 (力) | **Structure**: Layered materials ($MoS_2$/h-BN) without covalent bonding. |
-| **Electroresistance** | /ɪˌlɛktroʊrɪˈzɪstəns/ | 电致电阻效应 | **Metric**: The ratio of resistance change (TER) up to $10^9$. |
-| **Ambipolar** | /ˌæmbɪˈpoʊlər/ | 双极性的 | **Behavior**: Able to conduct both electrons (n-type) and holes (p-type). |
-| **Hysteresis** | /ˌhɪstəˈriːsɪs/ | 滞回 (线) | **Data**: The loops in P-V or Transfer curves indicating memory effect. |
-| **Schottky Barrier** | /ˈʃɒtki ˈbæriər/ | 肖特基势垒 | **Contrast**: The traditional contact type that causes Fermi level pinning. |
-| **Modulation** | /ˌmɒdjuˈleɪʃən/ | 调制/调控 | **Action**: Using Gate voltage to shift the Fermi level. |
-| **Rectification** | /ˌrɛktɪfɪˈkeɪʃən/ | 整流 | **IV Curve**: Current flows easily in one direction but is blocked in the other. |
-| **Coercive Voltage** | /koʊˈɜːrsɪv/ | 矫顽电压 | **Param**: The voltage required to switch the ferroelectric polarization. |
-| **Dichalcogenides** | /daɪˌkælˈkɒdʒənaɪdz/ | 硫属化物 | **Material**: Refers to TMDs family like $MoS_2$, $WSe_2$. |
-| **Burgeoning** | /ˈbɜːrdʒənɪŋ/ | 萌芽的/激增的 | **Writing**: Used to describe the rapid growth of a research field. |
+| **Ferroelectric** | /ˌfɛroʊɪˈlɛktrɪk/ | 铁电的 | **Core**: Material with switchable spontaneous polarization. |
+| **Tunneling** | /ˈtʌnlɪŋ/ | 隧穿 | **Mechanism**: Quantum transport through barriers (h-BN). |
+| **Heterostructure** | /ˌhɛtəroʊˈstrʌktʃər/ | 异质结 | **Structure**: Stack of different 2D materials (e.g., MoS2/h-BN). |
+| **Electroresistance** | /ɪˌlɛktroʊrɪˈzɪstəns/ | 电致电阻 | **Effect**: Resistance change induced by electric field. |
+| **Ambipolar** | /ˌæmbɪˈpoʊlər/ | 双极性的 | **Transport**: Conducting both electrons and holes. |
+| **Hysteresis** | /ˌhɪstəˈriːsɪs/ | 滞回 (线) | **Data**: Loop in I-V or P-V curves, sign of memory. |
+| **Schottky Barrier** | /ˈʃɒtki ˈbæriər/ | 肖特基势垒 | **Interface**: Potential barrier at metal-semiconductor junction. |
+| **Depletion** | /dɪˈpliːʃən/ | 耗尽 (区) | **State**: Region where mobile charge carriers are removed. |
+| **Accumulation** | /əˌkjuːmjəˈleɪʃən/ | 积累 (区) | **State**: Region with high density of charge carriers. |
+| **Lithography** | /lɪˈθɒɡrəfi/ | 光刻 | **Fab**: Process to pattern the device (e.g., E-beam lithography). |
+| **Piezoresponse** | /piˌeɪzoʊrɪˈspɒns/ | 压电响应 | **Method**: PFM, used to image ferroelectric domains. |
+| **Rectification** | /ˌrɛktɪfɪˈkeɪʃən/ | 整流 | **Behavior**: Diode-like one-way current flow. |
+| **Fatigue** | /fəˈtiːɡ/ | 疲劳 | **Reliability**: Performance degradation after many cycles. |
+| **Dichalcogenides** | /daɪˌkælˈkɒdʒənaɪdz/ | 硫属化物 | **Material**: Family of 2D materials like MoS2, WSe2. |
+| **Conductance** | /kənˈdʌktəns/ | 电导 | **Metric**: The inverse of resistance (G = I/V). |
+
+### ✍️ High-Impact Academic Verbs & Adjectives (高频学术用词)
+
+| Word | IPA | Chinese | Context from Paper |
+| :--- | :--- | :--- | :--- |
+| **Burgeoning** | /ˈbɜːrdʒənɪŋ/ | 激增的/萌芽的 | "The **burgeoning** interest in 2D semiconductors..." |
+| **Formidable** | /fɔːrˈmɪdəbl/ | 艰巨的/强大的 | "...persist **formidable** challenges in..." |
+| **Elusive** | /ɪˈluːsɪv/ | 难以实现的 | "...remains an **elusive** goal." |
+| **Pristine** | /ˈprɪstiːn/ | 原始的/完美的 | "...for the **pristine** ferroelectric state..." |
+| **Corroborate** | /kəˈrɒbəreɪt/ | 确证/支持 | "...is further **corroborated** by the P-V loops..." |
+| **Paramount** | /ˈpærəmaʊnt/ | 至关重要的 | "...suggesting interfacial effects are **paramount**..." |
+| **Mitigate** | /ˈmɪtɪɡeɪt/ | 减轻/缓和 | "...effective strategy to **mitigate** OFF-state current." |
+| **Diminished** | /dɪˈmɪnɪʃt/ | 减少的/削弱的 | "...current is notably **diminished** compared to..." |
+| **Disparity** | /dɪˈspærɪti/ | 差异/不对等 | "...impeded by the **disparity** in electron concentrations..." |
+| **Invert** | /ɪnˈvɜːrt/ | 翻转/倒置 | "...diode behavior is **inverted** by switching polarization..." |
+| **Impeded** | /ɪmˈpiːdɪd/ | 阻碍 | "...electron flow is significantly **impeded** by..." |
+| **Tailored** | /ˈteɪlərd/ | 定制的/调整的 | "...effectiveness of **tailored** tunnel barriers..." |
 
 ---
 
