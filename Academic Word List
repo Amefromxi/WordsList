@@ -1,573 +1,1666 @@
-Word,Phonetic (IPA),Part of Speech & Chinese Meaning,Example Sentence
-Analyze,/ˈæn.əl.aɪz/,v. 分析，分解,The software was used to analyze the large dataset derived from the simulation.
-Approach,/əˈproʊtʃ/,n. 方法，途径; v. 接近,We adopted a novel approach to solve the non-linear equation.
-Area,/ˈer.i.ə/,n. 领域，区域,This specific area of quantum physics has received little attention until now.
-Assess,/əˈses/,v. 评估，评定,It is difficult to assess the impact of temperature changes without more data.
-Assume,/əˈsuːm/,v. 假设，承担,We assume that the particles behave like an ideal gas in this model.
-Authority,/əˈθɔːr.ə.t̬i/,n. 权威，权力,The professor is a leading authority on computational materials science.
-Available,/əˈveɪ.lə.bəl/,adj. 可获得的，可用的,The source code is freely available on the research group's repository.
-Benefit,/ˈben.ə.fɪt/,n. 利益，好处; v. 有益于,This new algorithm offers the benefit of reduced computational cost.
-Concept,/ˈkɑːn.sept/,n. 概念，观念,The concept of entropy is fundamental to understanding thermodynamics.
-Consistent,/kənˈsɪs.tənt/,adj. 一致的，连贯的,The experimental results are consistent with the theoretical predictions.
-Constitutional,/ˌkɑːn.stəˈtuː.ʃən.əl/,adj. 组成的，宪法的,We examined the constitutional defects in the crystal lattice structure.
-Context,/ˈkɑːn.tekst/,n. 背景，环境，语境,"In the context of semiconductor physics, this phenomenon is negligible."
-Contract,/ˈkɑːn.trækt/,n. 合同; v. 收缩,The material tends to contract rapidly when cooled to absolute zero.
-Create,/kriˈeɪt/,v. 创造，造成,The goal is to create a stable environment for the reaction.
-Data,/ˈdeɪ.t̬ə/,n. 数据,All raw data were processed using Python scripts.
-Definition,/ˌdef.ɪˈnɪʃ.ən/,n. 定义,A clear definition of the boundary conditions is required for the simulation.
-Derive,/dɪˈraɪv/,v. 源于，导出,We can derive the formula from Newton’s second law of motion.
-Distribution,/ˌdɪs.trɪˈbjuː.ʃən/,n. 分布，分配,The probability distribution of the electrons was plotted in Figure 3.
-Economic,/iː.kəˈnɑː.mɪk/,adj. 经济的，有利可图的,We must consider the economic feasibility of mass-producing this material.
-Environment,/ɪnˈvaɪ.rən.mənt/,n. 环境,The experiment was conducted in a controlled vacuum environment.
-Establish,/ɪˈstæb.lɪʃ/,v. 建立，确立,Further studies are needed to establish a causal relationship.
-Estimate,/ˈes.tə.meɪt/,v. 估计，估算,We estimate the error margin to be less than 5%.
-Evidence,/ˈev.ə.dəns/,n. 证据,There is compelling evidence to support the existence of altermagnetism here.
-Factor,/ˈfæk.tɚ/,n. 因素，要素,Temperature is a critical factor influencing the conductivity.
-Finance,/ˈfaɪ.næns/,n. 金融; v. 资助,The project was financed by the National Science Foundation.
-Formula,/ˈfɔːr.mjə.lə/,n. 公式，配方,The chemical formula for Manganese Telluride is MnTe.
-Function,/ˈfʌŋk.ʃən/,n. 功能，函数; v. 运行,The wave function describes the quantum state of the system.
-Identify,/aɪˈden.t̬ə.faɪ/,v. 识别，认出,We used spectroscopy to identify the impurities in the sample.
-Income,/ˈɪn.kʌm/,n. 收入,(Academic context often refers to funding/grants)
-Indicate,/ˈɪn.də.keɪt/,v. 指示，表明,The red curve indicates the behavior of the system under high pressure.
+# Academic Word List (AWL) - 学术词汇表
 
+> **面向计算物理与材料科学的学术英语词汇**
+> 
+> 本词汇表基于 Coxhead's Academic Word List (AWL)，并针对计算材料科学、密度泛函理论(DFT)、
+> 凝聚态物理等领域提供了专业化的例句和释义。
 
-Word,Phonetic (IPA),Part of Speech & Chinese Meaning,Example Sentence
-Individual,/ˌɪn.dəˈvɪdʒ.u.əl/,adj. 个人的，独特的; n. 个人,Each individual atom in the lattice structure contributes to the total magnetic moment.
-Interpret,/ɪnˈtɜː.prɪt/,v. 解释，说明，口译,We must carefully interpret the spectral data to avoid false conclusions.
-Involve,/ɪnˈvɑːlv/,v. 包含，涉及,The calculation process involves solving a complex set of differential equations.
-Issue,/ˈɪʃ.uː/,n. 问题，议题; v. 发行,Compatibility between the two libraries was a major issue during development.
-Labor,/ˈleɪ.bɚ/,n. 劳动，劳工; v. 苦干,Manual data entry is a labor-intensive process that we aim to automate.
-Legal,/ˈliː.ɡəl/,adj. 法律的，合法的,We must ensure all software licenses comply with legal requirements.
-Legislate,/ˈledʒ.ə.sleɪt/,v. 立法,Governments often legislate to control the use of hazardous materials in research.
-Major,/ˈmeɪ.dʒɚ/,adj. 主要的，重大的,A major breakthrough in superconductivity was announced last week.
-Method,/ˈmeθ.əd/,n. 方法,The Monte Carlo method is widely used for stochastic simulations.
-Occur,/əˈkɝː/,v. 发生，出现,Phase transitions typically occur at specific critical temperatures.
-Percent,/pɚˈsent/,n. 百分比,The error rate was reduced to less than one percent.
-Period,/ˈpɪr.i.əd/,n. 时期，周期,The oscillation period depends on the mass of the pendulum.
-Policy,/ˈpɑː.lə.si/,n. 政策，方针,The university has a strict policy regarding laboratory safety.
-Principle,/ˈprɪn.sə.pəl/,n. 原理，原则,The principle of conservation of energy is fundamental to physics.
-Proceed,/proʊˈsiːd/,v. 继续进行，前进,"Once the setup is calibrated, we can proceed with the measurements."
-Process,/ˈprɑː.ses/,n. 过程; v. 处理,"The data process pipeline includes cleaning, normalization, and analysis."
-Require,/rɪˈkwaɪr/,v. 需要，要求,Running this simulation will require significant memory resources on the supercomputer.
-Research,/ˈriː.sɝːtʃ/,n. 研究; v. 研究,His research focuses on the topological properties of materials.
-Respond,/rɪˈspɑːnd/,v. 回答，作出反应,The system does not respond linearly to the applied voltage.
-Role,/roʊl/,n. 角色，作用,Spin-orbit coupling plays a crucial role in the splitting of energy bands.
-Section,/ˈsek.ʃən/,n. 部分，章节，截面,The next section of the paper discusses the experimental setup.
-Sector,/ˈsek.tɚ/,n. 部门，领域,The technology sector is investing heavily in quantum computing.
-Significant,/sɪɡˈnɪf.ə.kənt/,adj. 重要的，显著的,There is a significant difference between the two datasets.
-Similar,/ˈsɪm.ə.lɚ/,adj. 相似的,We observed a similar pattern in the control group.
-Source,/sɔːrs/,n. 来源，源头,We identified the noise source as thermal fluctuations.
-Specific,/spəˈsɪf.ɪk/,adj. 特定的，具体的,This tool is designed for a specific type of file format.
-Structure,/ˈstrʌk.tʃɚ/,n. 结构; v. 组织,The crystal structure of MnTe was determined using X-ray diffraction.
-Theory,/ˈθɪr.i/,n. 理论,The experimental results challenge the existing theory of superconductivity.
-Vary,/ˈver.i/,v. 变化，改变,The conductivity tends to vary with the concentration of dopants.
+**统计信息：** 共 9 个 Sublist，总计 536 个单词
 
-Word,Phonetic (IPA),Part of Speech & Chinese Meaning,Example Sentence
-Achieve,/əˈtʃiːv/,v. 实现，达到,The new algorithm helped us achieve a 20% increase in speed.
-Acquire,/əˈkwaɪr/,v. 获得，采集,We need to acquire more data points to validate the trend.
-Administer,/ədˈmɪn.ə.stɚ/,v. 管理，执行,The script automatically administers the distribution of tasks to different nodes.
-Affect,/əˈfekt/,v. 影响,External magnetic fields significantly affect the electron transport.
-Appropriate,/əˈproʊ.pri.ət/,adj. 适当的，恰当的,We must select an appropriate basis set for the VASP calculations.
-Aspect,/ˈæs.pekt/,n. 方面，层面,The topological aspect of the material is the focus of this paper.
-Assist,/əˈsɪst/,v. 协助，帮助,A Python script was written to assist in the post-processing of data.
-Category,/ˈkæt.ə.ɡɔːr.i/,n. 类别，种类,These semiconductors fall into a specific category of altermagnets.
-Chapter,/ˈtʃæp.tɚ/,n. 章，回,The third chapter of the thesis details the simulation methodology.
-Commission,/kəˈmɪʃ.ən/,n. 委员会; v. 委托,The supercomputer was commissioned for use by the physics department.
-Community,/kəˈmjjuː.nə.t̬i/,n. 社区，界,The results were well-received by the scientific community.
-Complex,/kɑːmˈpleks/,adj. 复杂的,The interaction between the layers creates a complex energy landscape.
-Compute,/kəmˈpjuːt/,v. 计算,We used the cluster to compute the band structure.
-Conclude,/kənˈkluːd/,v. 推断出，结束,We conclude that strain plays a major role in the device's performance.
-Conduct,/kənˈdʌkt/,v. 进行，传导,Gold is known to conduct electricity very efficiently.
-Consequent,/ˈkɑːn.sə.kwənt/,adj. 随之发生的,The voltage drop and consequent heating were measured.
-Construct,/kənˈstrʌkt/,v. 构建，建造,We constructed a theoretical model to explain the anomaly.
-Consume,/kənˈsuːm/,v. 消耗,The simulation consumes a large amount of RAM.
-Credit,/ˈkred.ɪt/,n. 信用，赞誉,We give credit to the authors of the original code.
-Culture,/ˈkʌl.tʃɚ/,n. 文化，培养(皿),The lab has a strong culture of collaboration and open-source sharing.
-Design,/dɪˈzaɪn/,v. 设计,We designed the experiment to isolate the piezoelectric effect.
-Distinct,/dɪˈstɪŋkt/,adj. 明显的，独特的,There are two distinct phases observable in the diagram.
-Element,/ˈel.ə.mənt/,n. 元素，要素,Manganese is a transition metal element.
-Equate,/ɪˈkweɪt/,v. 使相等，视为同等,We cannot simply equate high speed with high efficiency in this case.
-Evaluate,/ɪˈvæl.ju.eɪt/,v. 评估，评价,We need to evaluate the stability of the crystal structure.
-Feature,/ˈfiː.tʃɚ/,n. 特征，特色,A key feature of this library is its compatibility with C++.
-Final,/ˈfaɪ.nəl/,adj. 最终的,The final step involves visualizing the output with plotting tools.
-Focus,/ˈfoʊ.kəs/,v. 聚焦，集中,This study focuses on the properties of MnTe.
-Impact,/ˈɪm.pækt/,n. 影响，冲击,The impact of noise on the signal was minimal.
-Injure,/ˈɪn.dʒɚ/,v. 伤害，损害,"(Rarely used in physics, usually refers to physical harm)."
+## 目录
 
-Word,Phonetic (IPA),Part of Speech & Chinese Meaning,Example Sentence
-Institute,/ˈɪn.stə.tuːt/,n. 研究所，学院; v. 建立,The institute recently acquired a new cluster for high-performance computing.
-Invest,/ɪnˈvest/,v. 投资，投入,We must invest significant time in optimizing the code for the supercomputer.
-Item,/ˈaɪ.t̬əm/,n. 项目，条款,Please check every item on the simulation checklist before submitting the job.
-Journal,/ˈdʒɝː.nəl/,n. 期刊，日志,Our findings were published in a leading physics journal.
-Maintain,/meɪnˈteɪn/,v. 维持，保持,It is difficult to maintain a vacuum state for long periods.
-Normal,/ˈnɔːr.məl/,adj. 正常的，正交的,The vector is normal (perpendicular) to the surface plane.
-Obtain,/əbˈteɪn/,v. 获得，得到,We used density functional theory (DFT) to obtain the ground state energy.
-Participate,/pɑːrˈtɪs.ə.peɪt/,v. 参与,Electrons in the outer shell participate in chemical bonding.
-Perceive,/pəˈsiːv/,v. 感知，察觉,The sensor is designed to perceive minute changes in temperature.
-Positive,/ˈpɑː.zə.tɪv/,adj. 积极的，正的,The protons carry a positive charge.
-Potential,/poʊˈten.ʃəl/,n. 电势，潜力; adj. 可能的,We calculated the electric potential across the junction.
-Previous,/ˈpriː.vi.əs/,adj. 先前的,Previous studies failed to account for spin-orbit coupling.
-Primary,/ˈpraɪ.mer.i/,adj. 主要的，初级的,The primary goal of this research is to improve device efficiency.
-Purchase,/ˈpɝː.tʃəs/,v. 购买,We need to purchase a license for the commercial version of the software.
-Range,/reɪndʒ/,n. 范围,The experiment covers a temperature range from 10K to 300K.
-Region,/ˈriː.dʒən/,n. 区域,The depletion region widens as the reverse bias increases.
-Regulate,/ˈreɡ.jə.leɪt/,v. 调节，控制,A thermostat is used to regulate the temperature of the sample.
-Relevant,/ˈrel.ə.vənt/,adj. 相关的,Only relevant data points were included in the final analysis.
-Reside,/rɪˈzaɪd/,v. 居住，存在,The script and input files reside in the same directory.
-Resource,/ˈriː.sɔːrs/,n. 资源,Computational resources are limited on the shared node.
-Restrict,/rɪˈstrɪkt/,v. 限制，约束,The boundary conditions restrict the wave function to a finite box.
-Secure,/səˈkjʊr/,adj. 安全的; v. 获得,We used SSH to establish a secure connection to the server.
-Seek,/siːk/,v. 寻找，探索,We seek to understand the mechanism behind the giant magnetoresistance.
-Select,/səˈlekt/,v. 选择,The algorithm automatically selects the optimal parameters.
-Site,/saɪt/,n. 地点，位置(晶格点),The impurity atom occupies an interstitial site in the lattice.
-Strategy,/ˈstræt̬.ə.dʒi/,n. 策略,Our strategy involves combining machine learning with traditional simulations.
-Survey,/ˈsɝː.veɪ/,n. 调查，综述,A comprehensive survey of recent literature was conducted.
-Text,/tekst/,n. 文本,The input file is a simple text document containing coordinate data.
-Tradition,/trəˈdɪʃ.ən/,n. 传统,"By tradition, the first author performs the bulk of the experiments."
-Transfer,/trænsˈfɝː/,v. 转移，传输,Charge transfer occurs at the interface between the two materials.
+- [Sublist 1](#sublist-1) (60 words)
+- [Sublist 2](#sublist-2) (60 words)
+- [Sublist 3](#sublist-3) (60 words)
+- [Sublist 4](#sublist-4) (60 words)
+- [Sublist 5](#sublist-5) (60 words)
+- [Sublist 6](#sublist-6) (60 words)
+- [Sublist 7](#sublist-7) (60 words)
+- [Sublist 8](#sublist-8) (60 words)
+- [Sublist 9](#sublist-9) (56 words)
 
-Word,Phonetic (IPA),Part of Speech & Chinese Meaning,Example Sentence
-Alternative,/ɑːlˈtɝː.nə.t̬ɪv/,n. 替代品; adj. 两者择一的,We proposed an alternative algorithm to reduce the calculation time.
-Circumstance,/ˈsɝː.kəm.stæns/,n. 情况，环境,"Under these circumstances, the approximation is no longer valid."
-Comment,/ˈkɑːm.ent/,n. 评论，注释; v. 评论,Please add comments to your code to explain this function.
-Compensate,/ˈkɑːm.pən.seɪt/,v. 补偿，抵消,We increased the voltage to compensate for the resistance loss.
-Component,/kəmˈpoʊ.nənt/,n. 成分，组件,The GPU is a critical component for accelerating the simulation.
-Consent,/kənˈsent/,n. 同意; v. 同意,We obtained consent to use the dataset for our research.
-Considerable,/kənˈsɪd.ɚ.ə.bəl/,adj. 相当大的，重要的,A considerable amount of noise was observed in the signal.
-Constant,/ˈkɑːn.stənt/,n. 常数; adj. 恒定的,Planck's constant is a fundamental physical constant.
-Constrain,/kənˈstreɪn/,v. 约束，限制,The atoms are constrained to move within a 2D plane.
-Contribute,/kənˈtrɪb.juːt/,v. 贡献，导致,Several factors contribute to the instability of the system.
-Convene,/kənˈviːn/,v. 召集，集合,The committee will convene to review the research proposals.
-Coordinate,/koʊˈɔːr.dən.ət/,n. 坐标; v. 协调,The atomic coordinates were optimized using VASP.
-Core,/kɔːr/,n. 核心; adj. 核心的,The core dump file indicates a segmentation fault in the code.
-Corporate,/ˈkɔːr.pɚ.ət/,adj. 公司的，法人的,(Less common in physics) We received funding from corporate sponsors.
-Correspond,/ˌkɔːr.əˈspɑːnd/,v. 对应，符合,The peaks in the graph correspond to the energy levels of the atom.
-Criteria,/kraɪˈtɪr.i.ə/,n. 标准 (plural),The convergence criteria for the self-consistent loop were set to 1e-6 eV.
-Deduce,/dɪˈduːs/,v. 推导，推论,"From the spectral lines, we can deduce the chemical composition."
-Demonstrate,/ˈdem.ən.streɪt/,v. 证明，展示,This figure demonstrates the linear relationship between strain and bandgap.
-Document,/ˈdɑː.kjə.ment/,n. 文件; v. 记录,It is important to document every step of the experimental procedure.
-Dominate,/ˈdɑː.mə.neɪt/,v. 支配，占优势,"At low temperatures, quantum effects dominate the behavior of the system."
-Emphasis,/ˈem.fə.sɪs/,n. 强调，重点,There is a strong emphasis on efficiency in high-performance computing.
-Ensure,/ɪnˈʃʊr/,v. 确保,Please ensure that all dependencies are installed before running the script.
-Exclude,/ɪkˈskluːd/,v. 排除,We decided to exclude the outliers from the statistical analysis.
-Framework,/ˈfreɪm.wɝːk/,n. 框架，构架,We built our simulation on the PyTorch framework.
-Fund,/fʌnd/,n. 基金; v. 资助,The research is funded by the Department of Energy.
-Illustrate,/ˈɪl.ə.streɪt/,v. 举例说明，图解,Figure 1 illustrates the crystal structure of Manganese Telluride.
-Immigrate,/ˈɪm.ə.ɡreɪt/,v. 移民,(Rare in physics context) Scientists often immigrate to countries with better research funding.
-Imply,/ɪmˈplaɪ/,v. 暗示，意味着,These results imply that a phase transition has occurred.
-Initial,/ɪˈnɪʃ.əl/,adj. 最初的,The initial guess for the wavefunction was generated randomly.
-Instance,/ˈɪn.stəns/,n. 实例，情况,"In this particular instance, the algorithm failed to converge."
+---
 
-Word,Phonetic (IPA),Part of Speech & Chinese Meaning,Example Sentence
-Interact,/ˌɪn.t̬ɚˈækt/,v. 相互作用,The electrons interact with the lattice vibrations (phonons).
-Justify,/ˈdʒʌs.tə.faɪ/,v. 证明...是正当的，辩解,We must justify the use of this approximation in our model.
-Layer,/ˈleɪ.ɚ/,n. 层,The material consists of alternating layers of MnTe and the substrate.
-Link,/lɪŋk/,n. 联系，链接; v. 连接,There is a direct link between the strain applied and the magnetic moment.
-Locate,/loʊˈkeɪt/,v. 定位，找出,The script attempts to locate the energy minimum on the potential surface.
-Maximize,/ˈmæk.sə.maɪz/,v. 最大化,The code was optimized to maximize parallel efficiency on the GPU.
-Minor,/ˈmaɪ.nɚ/,adj. 次要的，较小的,We observed only minor deviations from the theoretical curve.
-Negate,/nɪˈɡeɪt/,v. 否定，抵消,The presence of impurities may negate the benefits of the doping.
-Outcome,/ˈaʊt.kʌm/,n. 结果,The outcome of the simulation depends heavily on the initial conditions.
-Partner,/ˈpɑːrt.nɚ/,n. 伙伴，搭档,We are looking for a research partner to assist with the experimental verification.
-Philosophy,/fɪˈlɑː.sə.fi/,n. 哲学，原理,"The design philosophy of this software is ""modularity first."""
-Physical,/ˈfɪz.ɪ.kəl/,adj. 物理的，身体的,"We measured the physical properties of the sample, such as density and conductivity."
-Proportion,/prəˈpɔːr.ʃən/,n. 比例，部分,A large proportion of the computational time is spent on matrix diagonalization.
-Publish,/ˈpʌb.lɪʃ/,v. 出版，发表,We aim to publish these findings in Physical Review Letters.
-React,/riˈækt/,v. 反应,The system does not react instantly to the external field.
-Register,/ˈredʒ.ə.stɚ/,v. 登记，记录; n. 寄存器,The sensor failed to register any change in temperature.
-Rely,/rɪˈlaɪ/,v. 依赖，依靠,The accuracy of the result relies on the quality of the pseudopotentials.
-Remove,/rɪˈmuːv/,v. 移除，去除,We need to remove the vacuum layer to simulate bulk properties.
-Scheme,/skiːm/,n. 方案，计划,We employed a finite difference scheme to solve the equation.
-Sequence,/ˈsiː.kwəns/,n. 序列，顺序,The instructions must be executed in the correct sequence.
-Shift,/ʃɪft/,n. 移动，改变; v. 转移,There is a noticeable shift in the peak position due to the Doppler effect.
-Specify,/ˈspes.ə.faɪ/,v. 指定，详细说明,You must specify the number of cores in the job submission script.
-Sufficient,/səˈfɪʃ.ənt/,adj. 足够的，充足的,The current energy cutoff is not sufficient for convergence.
-Task,/tæsk/,n. 任务，工作,The main task of this subroutine is to calculate the forces on atoms.
-Technical,/ˈtek.nɪ.kəl/,adj. 技术的，专门的,The paper contains many technical details about the fabrication process.
-Technique,/tekˈniːk/,n. 技术，技巧,Density Functional Theory (DFT) is a standard technique in computational materials science.
-Technology,/tekˈnɑː.lə.dʒi/,n. 技术，工艺,Semiconductor technology relies on precise control of material properties.
-Valid,/ˈvæl.ɪd/,adj. 有效的，正当的,This equation is only valid under low-temperature conditions.
-Volume,/ˈvɑːl.juːm/,n. 体积，卷,The unit cell volume expands as the temperature increases.
+## Sublist 1
 
-Word,Phonetic (IPA),Part of Speech & Chinese Meaning,Example Sentence
-Access,/ˈæk.ses/,n. 通路，权限; v. 存取,We need root privileges to access the system configuration files.
-Adequate,/ˈæd.ə.kwət/,adj. 足够的，适当的,The current mesh density is not adequate for capturing the fine details.
-Annual,/ˈæn.ju.əl/,adj. 每年的,The department publishes an annual report on research progress.
-Apparent,/əˈper.ənt/,adj. 明显的，表面上的,The apparent discrepancy in the data was actually due to a calibration error.
-Approximate,/əˈprɑːk.sə.mət/,adj. 近似的; v. 近似,We used an approximate value for the dielectric constant.
-Attitude,/ˈæt.t̬ə.tuːd/,n. 态度，看法,A rigorous attitude towards data verification is essential for a scientist.
-Attribute,/əˈtrɪb.juːt/,v. 归因于; n. 属性,We attribute the peak splitting to the Zeeman effect.
-Civil,/ˈsɪv.əl/,adj. 公民的，民用的,(Rare in physics) This technology has both military and civil applications.
-Code,/koʊd/,n. 代码，准则; v. 编码,I spent the whole afternoon optimizing the C++ code for the simulation.
-Commit,/kəˈmɪt/,v. 承诺，犯(错)，提交(代码),Don't forget to commit your changes to the Git repository before leaving.
-Communicate,/kəˈmjuː.nə.keɪt/,v. 交流，通信,The master node communicates with the worker nodes via MPI.
-Concentrate,/ˈkɑːn.sən.treɪt/,v. 集中，浓缩,We should concentrate our efforts on solving the convergence issue.
-Confer,/kənˈfɝː/,v. 商讨，授予,I need to confer with my supervisor before submitting the abstract.
-Contrast,/ˈkɑːn.træst/,n. 对比; v. 对照,"In contrast to the previous model, this new approach considers spin dynamics."
-Cycle,/ˈsaɪ.kəl/,n. 循环，周期,The self-consistent field (SCF) cycle converged in 20 steps.
-Debate,/dɪˈbeɪt/,n. 辩论; v. 争论,There is an ongoing debate about the origin of high-temperature superconductivity.
-Despite,/dɪˈspaɪt/,prep. 尽管,"Despite the high noise level, a clear signal was detected."
-Dimension,/ˌdɪˈmen.ʃən/,n. 维度，尺寸,Graphene is a famous two-dimensional material.
-Domestic,/dəˈmes.tɪk/,adj. 国内的，家庭的,We collaborated with several domestic universities on this project.
-Emerge,/iˈmɝːdʒ/,v. 浮现，出现,New properties often emerge at the interface of two materials.
-Error,/ˈer.ɚ/,n. 错误，误差,The systematic error of the instrument must be subtracted.
-Ethnic,/ˈeθ.nɪk/,adj. 种族的,(Rare in physics) Research groups often include members from diverse ethnic backgrounds.
-Goal,/ɡoʊl/,n. 目标,The ultimate goal is to achieve room-temperature superconductivity.
-Grant,/ɡrænt/,v. 授予，准许; n. 拨款,The user was granted access to the high-priority queue.
-Hence,/hens/,adv. 因此,"The electrons are confined, hence the quantization of energy levels."
-Hypothesis,/haɪˈpɑː.θə.sɪs/,n. 假设,Our experimental results support the initial hypothesis.
-Implement,/ˈɪm.plə.ment/,v. 实施，执行,We plan to implement this algorithm in the next version of the software.
-Implicate,/ˈɪm.plə.keɪt/,v. 牵连，意味着,The data implicates phonon scattering as the main cause of resistivity.
-Impose,/ɪmˈpoʊz/,v. 强加，征收,Periodic boundary conditions were imposed on the simulation box.
-Integrate,/ˈɪn.t̬ə.ɡreɪt/,v. 整合，积分,The software integrates data analysis and visualization into one platform.
+**Analyze** /ˈæn.əl.aɪz/ — v. 分析，分解
+> The software was used to analyze the large dataset derived from the simulation.
 
-Word,Phonetic (IPA),Part of Speech & Chinese Meaning,Example Sentence
-Internal,/ɪnˈtɝː.nəl/,adj. 内部的,The internal energy of the system increases with temperature.
-Investigate,/ɪnˈves.tə.ɡeɪt/,v. 调查，研究,We plan to investigate the magnetic anisotropy of the crystal.
-Job,/dʒɑːb/,n. 工作，任务 (计算机作业),The simulation job was submitted to the batch queue.
-Label,/ˈleɪ.bəl/,n. 标签; v. 标记,Please label the axes of the graph clearly with units.
-Mechanism,/ˈmek.ə.nɪ.zəm/,n. 机制，机理,The mechanism behind the giant magnetoresistance effect is complex.
-Obvious,/ˈɑːb.vi.əs/,adj. 明显的,It is obvious from Figure 2 that the conductivity drops sharply.
-Occupy,/ˈɑː.kjə.paɪ/,v. 占据,Electrons fill the bands starting from the lowest energy states to occupy the valence band.
-Option,/ˈɑːp.ʃən/,n. 选项,We added a compilation option to enable GPU acceleration.
-Output,/ˈaʊt.pʊt/,n. 输出,The output file contains the relaxed atomic coordinates.
-Overall,/oʊ.vɚˈɑːl/,adj. 全部的，总体的,The overall performance of the code was improved by 30%.
-Parallel,/ˈper.ə.lel/,adj. 平行的，并行的,We used parallel computing to speed up the matrix diagonalization.
-Parameter,/pəˈræm.ə.t̬ɚ/,n. 参数,The lattice parameter a was optimized using DFT.
-Phase,/feɪz/,n. 相，阶段,The material undergoes a phase transition at 150 K.
-Predict,/prɪˈdɪkt/,v. 预测,Theoretical models predict that this material is a topological insulator.
-Principal,/ˈprɪn.sə.pəl/,adj. 主要的,The principal investigator (PI) is responsible for the grant management.
-Prior,/ˈpraɪ.ɚ/,adj. 先前的,Prior knowledge of the crystal symmetry helps in setting up the calculation.
-Professional,/prəˈfeʃ.ən.əl/,adj. 专业的,You should seek professional advice on patenting this discovery.
-Project,/ˈprɑː.dʒekt/,n. 项目; v. 投射,This research project focuses on renewable energy materials.
-Promote,/prəˈmoʊt/,v. 促进,Doping can promote charge carrier mobility in the semiconductor.
-Regime,/reɪˈʒiːm/,n. (物理) 状态，范围，政权,"In the quantum regime, classical mechanics is no longer applicable."
-Resolve,/rɪˈzɑːlv/,v. 分辨，解决,The instrument can resolve features as small as 5 nanometers.
-Retain,/rɪˈteɪn/,v. 保持，保留,The sample retains its magnetic properties even at room temperature.
-Series,/ˈsɪr.iːz/,n. 系列，级数,We performed a series of tests to verify the code's stability.
-Statistic,/stəˈtɪs.tɪk/,n. 统计数值,The Fermi-Dirac statistic governs the distribution of electrons.
-Status,/ˈsteɪ.t̬əs/,n. 状态,You can check the status of your running jobs using the qstat command.
-Stress,/stres/,n. 应力，压力; v. 强调,Applying shear stress can alter the electronic band structure.
-Subsequent,/ˈsʌb.sɪ.kwənt/,adj. 随后的,Subsequent analysis revealed a minor error in the initial data.
-Sum,/sʌm/,n. 总和,The total energy is the sum of kinetic and potential energies.
-Summary,/ˈsʌm.ɚ.i/,n. 摘要，总结,The abstract provides a brief summary of the paper's main findings.
-Undertake,/ˌʌn.dɚˈteɪk/,v. 承担，从事,We plan to undertake a comprehensive study of this alloy system.
+**Approach** /əˈproʊtʃ/ — n. 方法，途径; v. 接近
+> We adopted a novel approach to solve the non-linear equation.
 
-Word,Phonetic (IPA),Part of Speech & Chinese Meaning,Example Sentence
-Academy,/əˈkæd.ə.mi/,n. 学院，学会,The research was presented at the National Academy of Sciences.
-Adjust,/əˈdʒʌst/,v. 调整，调节,We need to adjust the input parameters to improve convergence.
-Alter,/ˈɑːl.tɚ/,v. 改变，更改,Doping with chromium can significantly alter the magnetic properties.
-Amend,/əˈmend/,v. 修正，修订,The manuscript was amended based on the reviewers' comments.
-Aware,/əˈwer/,adj. 意识到的,Researchers should be aware of the limitations of this approximation.
-Capacity,/kəˈpæs.ə.t̬i/,n. 容量，能力,The new supercomputer has a much higher processing capacity.
-Challenge,/ˈtʃæl.ɪndʒ/,n. 挑战; v. 质疑,Modeling the electron correlation remains a major challenge in this field.
-Compound,/ˈkɑːm.paʊnd/,n. 化合物; adj. 复合的,Manganese Telluride (MnTe) is an antiferromagnetic compound.
-Conflict,/ˈkɑːn.flɪkt/,n. 冲突，矛盾,There is a conflict between the experimental data and the theoretical model.
-Consult,/kənˈsʌlt/,v. 咨询，查阅,Please consult the documentation for the correct syntax of the command.
-Contact,/ˈkɑːn.tækt/,n. 接触，联系; v. 联系,The electrical contact resistance must be minimized for accurate measurements.
-Decline,/dɪˈklaɪn/,v. 下降，拒绝,The conductivity tends to decline as the temperature rises.
-Draft,/dræft/,n. 草稿; v. 起草,I am writing the first draft of my thesis introduction.
-Enable,/ɪˈneɪ.bəl/,v. 使能够,This new algorithm will enable us to simulate larger systems.
-Energy,/ˈen.ɚ.dʒi/,n. 能量,The Fermi energy level lies within the band gap.
-Equivalent,/ɪˈkwɪv.ə.lənt/,adj. 等价的，相等的,This formulation is mathematically equivalent to the Schrödinger equation.
-Evolution,/ˌev.əˈluː.ʃən/,n. 演变，进化,We tracked the time evolution of the wave packet.
-Expand,/ɪkˈspænd/,v. 扩张，展开,We plan to expand the model to include spin-orbit coupling effects.
-Expose,/ɪkˈspoʊz/,v. 暴露，揭露,"The sample was exposed to air, causing oxidation on the surface."
-External,/ɪkˈstɝː.nəl/,adj. 外部的,An external electric field was applied to the device.
-Facilitate,/fəˈsɪl.ə.teɪt/,v. 促进，使便利,Python scripts are often used to facilitate data post-processing.
-Fundamental,/ˌfʌn.dəˈmen.t̬əl/,adj. 基本的，根本的,Understanding electron transport is fundamental to semiconductor physics.
-Generate,/ˈdʒen.ə.reɪt/,v. 产生，生成,The simulation will generate a large amount of output data.
-Image,/ˈɪm.ɪdʒ/,n. 图像，影像,The atomic structure was visualized using a TEM image.
-Logic,/ˈlɑː.dʒɪk/,n. 逻辑,The control logic of the program ensures that the loop terminates correctly.
-Margin,/ˈmɑːr.dʒɪn/,n. 边缘，余地,The result is within the margin of error for this instrument.
-Monitor,/ˈmɑː.nə.t̬ɚ/,v. 监控; n. 显示器,We need to monitor the temperature fluctuations during the experiment.
-Network,/ˈnet.wɝːk/,n. 网络,The compute nodes are connected via a high-speed InfiniBand network.
-Notion,/ˈnoʊ.ʃən/,n. 概念，想法,The notion that time is absolute was challenged by Einstein.
-Objective,/əbˈdʒek.tɪv/,n. 目标; adj. 客观的,The primary objective is to calculate the band structure of MnTe.
+**Area** /ˈer.i.ə/ — n. 领域，区域
+> This specific area of quantum physics has received little attention until now.
 
-Word,Phonetic (IPA),Part of Speech & Chinese Meaning,Example Sentence
-Orient,/ˈɔːr.i.ent/,v. 使适应，定方向,The crystal was oriented along the [001] axis for the measurement.
-Perspective,/pɚˈspek.tɪv/,n. 观点，视角,"From a theoretical perspective, the results are quite promising."
-Precise,/prəˈsaɪs/,adj. 精确的,We need a precise calculation of the lattice constants.
-Prime,/praɪm/,adj. 首要的，最好的,The prime focus of this study is the transport property of the material.
-Pursue,/pɚˈsuː/,v. 追求，从事,Many students wish to pursue a career in computational physics.
-Ratio,/ˈreɪ.ʃi.oʊ/,n. 比率,The signal-to-noise ratio was improved by averaging the data.
-Reject,/rɪˈdʒekt/,v. 拒绝，排斥,The journal may reject the paper if the English is not polished.
-Stable,/ˈsteɪ.bəl/,adj. 稳定的,The solution is numerically stable even with large time steps.
-Style,/staɪl/,n. 风格，样式,The coding style should follow the PEP 8 guidelines for Python.
-Substitute,/ˈsʌb.stə.tuːt/,v. 代替; n. 代替品,We can substitute the complex potential with a simpler approximation.
-Sustain,/səˈsteɪn/,v. 维持，支撑,The reaction is self-sustaining once the critical temperature is reached.
-Symbol,/ˈsɪm.bəl/,n. 符号,The Greek symbol ψ (psi) usually represents the wavefunction.
-Target,/ˈtɑːr.ɡɪt/,n. 目标; v. 瞄准,Our target is to reduce the computational cost by 50%.
-Transit,/ˈtræn.sɪt/,n. 运输，经过,We modeled the electron transit time through the device.
-Trend,/trend/,n. 趋势,Figure 4 shows a clear linear trend in the data points.
-Version,/ˈvɝː.ʃən/,n. 版本,Please ensure you are using the latest version of VASP.
-Whereas,/werˈæz/,conj. 然而，鉴于,"Metals conduct electricity well, whereas insulators do not."
-Abstract,/ˈæb.strækt/,n. 摘要; adj. 抽象的,The abstract summarizes the key findings of the research paper.
-Accurate,/ˈæk.jɚ.ət/,adj. 准确的,DFT calculations are generally accurate for ground-state properties.
-Acknowledge,/əkˈnɑː.lɪdʒ/,v. 承认，致谢,We acknowledge the funding support from the National Science Foundation.
-Aggregate,/ˈæɡ.rə.ɡət/,n. 聚集体; v. 聚集,We analyzed the aggregate data from five different simulation runs.
-Allocate,/ˈæl.ə.keɪt/,v. 分配,The scheduler will allocate resources based on job priority.
-Assign,/əˈsaɪn/,v. 指派，赋值,"In Python, we use the = operator to assign a value to a variable."
-Attach,/əˈtætʃ/,v. 附上，连接,Please attach the log file when you report a bug.
-Author,/ˈɔː.θɚ/,n. 作者,The first author is usually the one who conducted the experiments.
-Bond,/bɑːnd/,n. 键，结合,The covalent bond between the silicon atoms is very strong.
-Brief,/briːf/,adj. 简短的,The paper begins with a brief introduction to altermagnetism.
-Capable,/ˈkeɪ.pə.bəl/,adj. 有能力的,The software is capable of handling millions of atoms in a single run.
-Cite,/saɪt/,v. 引用,It is important to cite relevant literature to support your arguments.
-Cooperate,/koʊˈɑː.pə.reɪt/,v. 合作,The magnetic moments cooperate to form an ordered state.
+**Assess** /əˈses/ — v. 评估，评定
+> It is difficult to assess the impact of temperature changes without more data.
 
-Word,Phonetic (IPA),Part of Speech & Chinese Meaning,Example Sentence
-Discriminate,/dɪˈskrɪm.ə.neɪt/,v. 区分，辨别,The sensor is able to discriminate between different types of radiation.
-Display,/dɪˈspleɪ/,v. 显示，展示; n. 显示,The results display a strong correlation between pressure and temperature.
-Diverse,/dɪˈvɝːs/,adj. 多样的,We tested the algorithm on a diverse set of materials.
-Domain,/doʊˈmeɪn/,n. 领域，(磁)畴,"In ferromagnets, magnetic moments align within a magnetic domain."
-Edit,/ˈed.ɪt/,v. 编辑,You can edit the configuration file using Vim or Nano.
-Enhance,/ɪnˈhæns/,v. 增强，提高,Using a finer mesh will enhance the resolution of the simulation.
-Exceed,/ɪkˈsiːd/,v. 超过,The memory usage must not exceed the limit of the compute node.
-Expert,/ˈek.spɝːt/,n. 专家; adj. 专家的,We consulted an expert in density functional theory.
-Explicit,/ɪkˈsplɪs.ɪt/,adj. 明确的，显式的,The paper makes an explicit comparison between the two methods.
-Federal,/ˈfed.ɚ.əl/,adj. 联邦的,The project is supported by a federal grant.
-Flexible,/ˈflek.sə.bəl/,adj. 灵活的，柔韧的,Python is a very flexible language for scientific computing.
-Furthermore,/ˌfɝː.ðɚˈmɔːr/,adv. 此外，而且,"Furthermore, the cost of the material is relatively low."
-Ignore,/ɪɡˈnɔːr/,v. 忽视，不理睬,We can ignore the relativistic effects for light elements.
-Incorporate,/ɪnˈkɔːr.pɚ.eɪt/,v. 包含，合并,The new model incorporates spin-orbit coupling terms.
-Index,/ˈɪn.deks/,n. 索引，指数; v. 编索引,The refractive index of the material changes with wavelength.
-Inhibit,/ɪnˈhɪb.ɪt/,v. 抑制，阻碍,High temperatures can inhibit the formation of the crystal phase.
-Initiate,/ɪˈnɪʃ.i.eɪt/,v. 开始，发起,The script helps initiate the calculation on the remote server.
-Input,/ˈɪn.pʊt/,n. 输入,Check the input parameters carefully before submitting the job.
-Instruct,/ɪnˈstrʌkt/,v. 指示，教导,The manual instructs users on how to compile the source code.
-Intelligence,/ɪnˈtel.ə.dʒəns/,n. 智力，情报,Artificial intelligence is increasingly used to predict material properties.
-Interval,/ˈɪn.t̬ɚ.vəl/,n. 间隔,The data was sampled at an interval of 0.5 seconds.
-Lecture,/ˈlek.tʃɚ/,n. 讲座; v. 讲课,Professor Smith gave a lecture on topological insulators.
-Migrate,/ˈmaɪ.ɡreɪt/,v. 迁移,Vacancies in the lattice can migrate under high thermal stress.
-Minimum,/ˈmɪn.ə.məm/,n. 最小值,The geometry optimization stops when the force reaches a minimum.
-Neutral,/ˈnuː.trəl/,adj. 中性的,Neutrons are electrically neutral particles.
-Nevertheless,/ˌnev.ɚ.ðəˈles/,adv. 然而，不过,"The approximation is crude; nevertheless, it provides useful insights."
-Precede,/priːˈsiːd/,v. 在...之前,A theoretical prediction often precedes experimental discovery.
-Presume,/prɪˈzuːm/,v. 假定，推测,We presume that the sample is pure based on the X-ray data.
-Rational,/ˈræʃ.ən.əl/,adj. 合理的，理性的,There is a rational explanation for this anomaly in the spectrum.
-Recover,/rɪˈkʌv.ɚ/,v. 恢复，收回,The system automatically recovers from the error state.
+**Assume** /əˈsuːm/ — v. 假设，承担
+> We assume that the particles behave like an ideal gas in this model.
 
-Word,Phonetic (IPA),Part of Speech & Chinese Meaning,Example Sentence
-Reveal,/rɪˈviːl/,v. 揭示，显示,The STM images reveal a hexagonal lattice structure.
-Scope,/skoʊp/,n. 范围,Quantum gravity is currently outside the scope of this study.
-Trace,/treɪs/,v. 追踪; n. 痕迹，微量,We can trace the origin of the error to the initialization step.
-Transform,/trænsˈfɔːrm/,v. 变换，改变,A Fast Fourier Transform (FFT) was applied to the signal.
-Transport,/ˈtræn.spɔːrt/,n. 输运，运输,My research focuses on electron transport in 2D materials.
-Underlie,/ˌʌn.dɚˈlaɪ/,v. 构成...的基础,Symmetry principles underlie many physical laws.
-Utilize,/ˈjuː.t̬əl.aɪz/,v. 利用,We utilize the multiprocessing library to speed up the code.
-Adapt,/əˈdæpt/,v. 适应，改编,The algorithm automtically adapts the step size based on the error.
-Advocate,/ˈæd.və.keɪt/,v. 提倡; n. 拥护者,Many physicists advocate for open-access publishing.
-Aid,/eɪd/,n. 帮助; v. 资助，援助,Visual aids can help aid the understanding of complex data.
-Channel,/ˈtʃæn.əl/,n. 通道，频道,The electrons flow through a narrow conducting channel.
-Chemical,/ˈkem.ɪ.kəl/,adj. 化学的,The chemical potential determines the direction of particle flow.
-Classical,/ˈklæs.ɪ.kəl/,adj. 经典的,"At high temperatures, the system approaches the classical limit."
-Comprehensive,/ˌkɑːm.prəˈhen.sɪv/,adj. 全面的，广泛的,We conducted a comprehensive review of the literature.
-Comprise,/kəmˈpraɪz/,v. 包含，由...组成,The unit cell comprises two manganese atoms and two tellurium atoms.
-Confirm,/kənˈfɝːm/,v. 确认，证实,Experimental data confirmed the theoretical prediction.
-Contrary,/ˈkɑːn.tre.ri/,adj. 相反的,"Contrary to popular belief, the material is not a simple insulator."
-Convert,/kənˈvɝːt/,v. 转换,You need to convert the energy units from Rydbergs to eV.
-Couple,/ˈkʌp.əl/,v. 耦合，连接; n. 一对,The spins couple strongly to the lattice vibrations.
-Definite,/ˈdef.ən.ət/,adj. 确定的,There is a definite relationship between mass and energy.
-Differentiate,/ˌdɪf.əˈren.ʃi.eɪt/,v. 区分，微分,We need to differentiate between thermal noise and quantum fluctuations.
-Dynamic,/daɪˈnæm.ɪk/,adj. 动态的,Molecular dynamic simulations were performed to study diffusion.
-Eliminate,/iˈlɪm.ə.neɪt/,v. 消除,We used a filter to eliminate the high-frequency noise.
-Empirical,/emˈpɪr.ɪ.kəl/,adj. 经验的，实证的,The Van der Waals parameters were fitted to empirical data.
-Equip,/ɪˈkwɪp/,v. 装备，配备,The lab is equipped with a state-of-the-art electron microscope.
-Extract,/ɪkˈstrækt/,v. 提取,A Python script was used to extract the band gap values from the output.
-File,/faɪl/,n. 文件,Please save the coordinates in a separate structure file.
-Finite,/ˈfaɪ.naɪt/,adj. 有限的,We used the finite difference method to solve the equation.
-Foundation,/faʊnˈdeɪ.ʃən/,n. 基础，基金会,Quantum mechanics is the foundation of modern physics.
-Globe,/ɡloʊb/,n. 地球，球体,Scientists across the globe are working on this problem.
+**Authority** /əˈθɔːr.ə.t̬i/ — n. 权威，权力
+> The professor is a leading authority on computational materials science.
 
-Word,Phonetic (IPA),Part of Speech & Chinese Meaning,Example Sentence
-Grade,/ɡreɪd/,n. 等级，分数; v. 分级,We used research-grade reagents for the synthesis.
-Guarantee,/ˌɡer.ənˈtiː/,v. 保证; n. 担保,Convergence is not guaranteed for systems with complex energy landscapes.
-Hierarchy,/ˈhaɪ.rɑːr.ki/,n. 层级，等级制度,The file system follows a strict directory hierarchy.
-Identical,/aɪˈden.tɪ.kəl/,adj. 完全相同的,The two samples yielded identical spectral signatures.
-Ideology,/ˌaɪ.diˈɑː.lə.dʒi/,n. 意识形态,(Rare in physics) The ideology of open science promotes sharing data freely.
-Infer,/ɪnˈfɝː/,v. 推断,We can infer the presence of defects from the broadening of the peak.
-Innovate,/ˈɪn.ə.veɪt/,v. 创新,We need to innovate new methods to overcome the bottleneck in computing speed.
-Insert,/ɪnˈsɝːt/,v. 插入,Please insert a vacuum layer between the slabs to prevent interaction.
-Intervene,/ˌɪn.t̬ɚˈviːn/,v. 干预，调停,The operator had to intervene when the cooling system failed.
-Isolate,/ˈaɪ.sə.leɪt/,v. 隔离，分离,We managed to isolate the signal from the background noise.
-Media,/ˈmiː.di.ə/,n. 媒介，介质 (plural of Medium),Light travels at different speeds in different optical media.
-Mode,/moʊd/,n. 模式，模态,The phonon mode at 5 THz corresponds to the stretching of the Mn-Te bond.
-Paradigm,/ˈper.ə.daɪm/,n. 范式,Quantum mechanics represented a shift in the scientific paradigm.
-Phenomenon,/fəˈnɑː.mə.nɑːn/,n. 现象,Superconductivity is a macroscopic quantum phenomenon.
-Priority,/praɪˈɔːr.ə.t̬i/,n. 优先权,High-priority jobs are executed first by the scheduler.
-Prohibit,/proʊˈhɪb.ɪt/,v. 禁止，阻止,The Pauli exclusion principle prohibits two electrons from occupying the same state.
-Publication,/ˌpʌb.ləˈkeɪ.ʃən/,n. 出版，发表,The publication of the results was delayed due to peer review.
-Quote,/kwoʊt/,v. 引用; n. 引语,The author quotes several seminal papers in the introduction.
-Release,/rɪˈliːs/,v. 释放，发布,The atoms release energy in the form of photons when relaxing to the ground state.
-Reverse,/rɪˈvɝːs/,v. 颠倒; adj. 相反的,We applied a reverse bias voltage to the diode.
-Simulate,/ˈsɪm.jə.leɪt/,v. 模拟,We used VASP to simulate the electronic structure of the material.
-Sole,/soʊl/,adj. 唯一的,The sole purpose of this script is to convert data formats.
-Somewhat,/ˈsʌm.wʌt/,adv. 稍微，有点,The results were somewhat unexpected given the initial theory.
-Submit,/səbˈmɪt/,v. 提交,I will submit the job to the supercomputer tonight.
-Successor,/səkˈses.ɚ/,n. 继任者，后继事物,Python 3 is the successor to Python 2.
-Survive,/sɚˈvaɪv/,v. 幸存，残留,The magnetic order survives even at room temperature.
-Thesis,/ˈθiː.sɪs/,n. 论文，论点,The methodology is described in detail in my doctoral thesis.
-Topic,/ˈtɑː.pɪk/,n. 主题，话题,The topic of topological insulators is currently very popular.
-Transmit,/trænsˈmɪt/,v. 传输，发射,Optical fibers transmit data over long distances with low loss.
-Ultimate,/ˈʌl.tə.mət/,adj. 最终的，根本的,The ultimate limit of Moore's Law is approaching.
+**Available** /əˈveɪ.lə.bəl/ — adj. 可获得的，可用的
+> The source code is freely available on the research group's repository.
 
-Word,Phonetic (IPA),Part of Speech & Chinese Meaning,Example Sentence
-Abandon,/əˈbæn.dən/,v. 放弃，中止,We had to abandon the first approach due to convergence issues.
-Accompany,/əˈkʌm.pə.ni/,v. 伴随，陪同,A structural phase transition often accompanies the magnetic change.
-Accumulate,/əˈkjuː.mjə.leɪt/,v. 积累，积聚,"Errors can accumulate over long simulation times, leading to instability."
-Ambiguous,/æmˈbɪɡ.ju.əs/,adj. 模棱两可的，含糊的,"The spectral data was ambiguous, so we repeated the measurement."
-Append,/əˈpend/,v. 附加，增补,The new results were appended to the existing dataset.
-Appreciate,/əˈpriː.ʃi.eɪt/,v. 理解，感激，增值,We appreciate the complexity of the electron-phonon interaction here.
-Arbitrary,/ˈɑːr.bə.trer.i/,adj. 任意的，武断的,The initial wave function was set to an arbitrary random state.
-Automate,/ˈɑː.t̬ə.meɪt/,v. 自动化,I wrote a Python script to automate the submission of VASP jobs.
-Bias,/ˈbaɪ.əs/,n. 偏见，偏置(电压); v. 使存偏见,We applied a forward bias to the junction to study the current flow.
-Chart,/tʃɑːrt/,n. 图表; v. 制图,The flow chart illustrates the logic of the Monte Carlo algorithm.
-Clarify,/ˈkler.ə.faɪ/,v. 澄清，阐明,Additional calculations are needed to clarify the origin of the band splitting.
-Commodity,/kəˈmɑː.də.t̬i/,n. 商品,(Rare in physics) Computing power has become a commodity in modern research.
-Complement,/ˈkɑːm.plə.ment/,v. 补充; n. 补足物,The theoretical model complements the experimental findings perfectly.
-Conform,/kənˈfɔːrm/,v. 符合，遵守,The code must conform to the C++17 standard.
-Contemporary,/kənˈtem.pə.rer.i/,adj. 当代的，同时代的,Contemporary research focuses heavily on 2D materials.
-Contradict,/ˌkɑːn.trəˈdɪkt/,v. 反驳，与...矛盾,Our findings contradict the results published last year.
-Crucial,/ˈkruː.ʃəl/,adj. 至关重要的,Accurate pseudopotentials are crucial for reliable DFT calculations.
-Currency,/ˈkɝː.ən.si/,n. 货币，通用性,This theory has gained currency (acceptance) in the physics community recently.
-Denote,/dɪˈnoʊt/,v. 表示，指示,The letter n is used to denote the principal quantum number.
-Detect,/dɪˈtekt/,v. 探测，发现,The instrument is sensitive enough to detect single photons.
-Deviate,/ˈdiː.vi.eɪt/,v. 偏离,The experimental points deviate significantly from the theoretical curve.
-Displace,/dɪˈspleɪs/,v. 取代，置换，位移,The atom was displaced from its equilibrium position by thermal vibration.
-Eventual,/ɪˈven.tʃu.əl/,adj. 最后的，最终的,The eventual goal is to integrate this material into memory devices.
-Exhibit,/ɪɡˈzɪb.ɪt/,v. 展示，表现出,The material exhibits strong altermagnetism at room temperature.
-Exploit,/ɪkˈsplɔɪt/,v. 利用，开发,We can exploit the symmetry of the crystal to reduce computational cost.
-Fluctuate,/ˈflʌk.tʃu.eɪt/,v. 波动,The total energy tends to fluctuate around the mean value.
-Guideline,/ˈɡaɪd.laɪn/,n. 指南，指导方针,Follow the safety guidelines when working with cryogenic liquids.
-Highlight,/ˈhaɪ.laɪt/,v. 强调，突出,We wish to highlight the importance of spin-orbit coupling in this system.
-Implicit,/ɪmˈplɪs.ɪt/,adj. 含蓄的，隐式的,The equation contains an implicit dependency on time.
-Induce,/ɪnˈduːs/,v. 诱导，引起,Strain can induce a phase transition in the thin film.
+**Benefit** /ˈben.ə.fɪt/ — n. 利益，好处; v. 有益于
+> This new algorithm offers the benefit of reduced computational cost.
 
-Word,Phonetic (IPA),Part of Speech & Chinese Meaning,Example Sentence
-Inevitable,/ɪˈnev.ə.t̬ə.bəl/,adj. 不可避免的,Some degree of numerical noise is inevitable in large simulations.
-Infrastructure,/ˈɪn.frəˌstrʌk.tʃɚ/,n. 基础设施,The university is upgrading its supercomputing infrastructure.
-Inspect,/ɪnˈspekt/,v. 检查，视察,You should inspect the output logs for any error messages.
-Intense,/ɪnˈtens/,adj. 强烈的,The sample was subjected to intense laser irradiation.
-Manipulate,/məˈnɪp.jə.leɪt/,v. 操纵，处理,We can manipulate the spin state of the electron using microwaves.
-Minimize,/ˈmɪn.ə.maɪz/,v. 最小化,The geometry optimization algorithm aims to minimize the total force.
-Nuclear,/ˈnuː.kliː.ɚ/,adj. 核的，核心的,Nuclear magnetic resonance (NMR) is a powerful analytical tool.
-Offset,/ˌɑːfˈset/,v. 抵消; n. 偏移量,The systematic error was offset by calibrating the instrument.
-Paragraph,/ˈper.ə.ɡræf/,n. 段落,The first paragraph of the discussion summarizes the main results.
-Plus,/plʌs/,prep. 加; n. 正号，优势,The energy is E0​ plus the kinetic term.
-Practitioner,/prækˈtɪʃ.ən.ɚ/,n. 从业者，实践者,"For a practitioner of DFT, understanding pseudopotentials is essential."
-Predominant,/prɪˈdɑː.mə.nənt/,adj. 占主导地位的，显著的,Phonon scattering is the predominant mechanism limiting mobility here.
-Prospect,/ˈprɑː.spekt/,n. 前景，展望,The prospect of using MnTe in spintronic devices is very promising.
-Radical,/ˈræd.ɪ.kəl/,adj. 根本的，激进的; n. (自由)基,A radical change in the experimental setup was required.
-Random,/ˈræn.dəm/,adj. 随机的,We used a random number generator to initialize the velocities.
-Reinforce,/ˌriː.ɪnˈfɔːrs/,v. 加强，证实,These new findings reinforce our previous hypothesis.
-Restore,/rɪˈstɔːr/,v. 恢复，修复,We had to restore the database from a backup after the crash.
-Revise,/rɪˈvaɪz/,v. 修订，复习,We need to revise the manuscript based on the referee's comments.
-Schedule,/ˈskedʒ.uːl/,n. 时间表; v. 安排,The job is scheduled to run on the high-memory node tonight.
-Tension,/ˈten.ʃən/,n. 张力，紧张,Surface tension affects the shape of the liquid droplet.
-Terminate,/ˈtɝː.mə.neɪt/,v. 终止，结束,The script will terminate automatically if convergence is not reached.
-Theme,/θiːm/,n. 主题,The central theme of the conference is topological materials.
-Thereby,/ˌðerˈbaɪ/,adv. 从而，因此,"We optimized the code, thereby reducing the calculation time by 40%."
-Uniform,/ˈjuː.nə.fɔːrm/,adj. 统一的，均匀的,A uniform magnetic field was applied perpendicular to the sample.
-Vehicle,/ˈviː.ə.kəl/,n. 车辆，传播媒介,Physical Review B is a common vehicle for publishing condensed matter research.
-Via,/ˈvaɪ.ə/,prep. 经由，通过,The data was transferred via a secure SSH connection.
-Virtual,/ˈvɝː.tʃu.əl/,adj. 虚拟的,We created a virtual environment to manage the Python dependencies.
-Visual,/ˈvɪʒ.u.əl/,adj. 视觉的,Visual inspection of the crystal structure revealed a defect.
-Widespread,/ˌwaɪdˈspred/,adj. 广泛的,Density Functional Theory has found widespread use in materials science.
+**Concept** /ˈkɑːn.sept/ — n. 概念，观念
+> The concept of entropy is fundamental to understanding thermodynamics.
 
-Word,Phonetic (IPA),Part of Speech & Chinese Meaning,Example Sentence
-Accommodate,/əˈkɑː.mə.deɪt/,v. 容纳，适应,The new server can accommodate larger memory requirements for our jobs.
-Analogy,/əˈnæl.ə.dʒi/,n. 类比,The flow of electricity is often explained using a water pipe analogy.
-Anticipate,/ænˈtɪs.ə.peɪt/,v. 预期，预料,We anticipate that the results will be published by the end of the year.
-Assure,/əˈʃʊr/,v. 保证，确信,We performed convergence tests to assure the accuracy of the forces.
-Attain,/əˈteɪn/,v. 达到，获得,The system attains equilibrium after approximately 2 picoseconds.
-Behalf,/bɪˈhæf/,n. 代表，利益,I am submitting this abstract on behalf of the research group.
-Bulk,/bʌlk/,n. 体(材料)，大部分; adj. 散装的,The properties of the bulk material differ from those of the thin film.
-Cease,/siːs/,v. 停止，结束,The iterations will cease once the energy difference is below the threshold.
-Coherent,/koʊˈhɪr.ənt/,adj. 相干的，连贯的,Lasers produce highly coherent light.
-Coincide,/ˌkoʊ.ɪnˈsaɪd/,v. 重合，同时发生,The peak of the spectrum coincides with the theoretical prediction.
-Commence,/kəˈmens/,v. 开始 (Formal),The simulation will commence automatically after the queue clears.
-Compatible,/kəmˈpæt̬.ə.bəl/,adj. 兼容的,The input file format is not compatible with the older version of the software.
-Concurrent,/kənˈkɝː.ənt/,adj. 同时发生的，并发的,We ran concurrent simulations on multiple nodes to save time.
-Confine,/kənˈfaɪn/,v. 限制，禁闭,The electrons are confined to a two-dimensional quantum well.
-Controversy,/ˈkɑːn.trə.vɝː.si/,n. 争议,There is some controversy regarding the mechanism of the superconductivity here.
-Converse,/ˈkɑːn.vɝːs/,n. 相反的事物; adj. 相反的,The converse is also true: increasing pressure reduces the volume.
-Device,/dɪˈvaɪs/,n. 装置，设备,We simulated the transport properties of a nanoscale spintronic device.
-Devote,/dɪˈvoʊt/,v. 致力于，奉献,He plans to devote his PhD to the study of topological materials.
-Diminish,/dɪˈmɪn.ɪʃ/,v. 减少，变小,The magnetic moment diminishes as the temperature approaches the Curie point.
-Distort,/dɪˈstɔːrt/,v. 扭曲，变形,The crystal lattice is slightly distorted due to the strain.
-Duration,/duˈreɪ.ʃən/,n. 持续时间,The duration of the laser pulse was 50 femtoseconds.
-Erosion,/ɪˈroʊ.ʒən/,n. 腐蚀，侵蚀,(More common in geology/chemistry) We checked for electrode erosion after the experiment.
-Ethic,/ˈeθ.ɪk/,n. 伦理，道德,Scientific ethics require that we report data honestly.
-Format,/ˈfɔːr.mæt/,n. 格式; v. 格式化,"Please save the image in a high-resolution vector format (e.g., PDF or SVG)."
-Found,/faʊnd/,v. 建立，创立,The institute was founded in 1950.
-Inherent,/ɪnˈhɪr.ənt/,adj. 固有的，内在的,Numerical noise is inherent in any floating-point calculation.
-Insight,/ˈɪn.saɪt/,n. 洞察力，见解,The simulation provides valuable insight into the atomic-scale mechanisms.
-Integral,/ˈɪn.t̬ə.ɡrəl/,n. 积分; adj. 不可或缺的,We calculated the line integral of the electric field.
-Intermediate,/ˌɪn.t̬ɚˈmiː.di.ət/,adj. 中间的,An intermediate phase appears during the transition process.
-Manual,/ˈmæn.ju.əl/,n. 手册; adj. 手工的,Refer to the user manual for details on the input parameters.
+**Consistent** /kənˈsɪs.tənt/ — adj. 一致的，连贯的
+> The experimental results are consistent with the theoretical predictions.
 
-Word,Phonetic (IPA),Part of Speech & Chinese Meaning,Example Sentence
-Mature,/məˈtʊr/,adj. 成熟的; v. 成熟,This technology is not yet mature enough for commercial application.
-Mediate,/ˈmiː.di.eɪt/,v. 调解，介导,Phonons mediate the attractive force between electrons in superconductors.
-Medium,/ˈmiː.di.əm/,n. 介质，媒介,The speed of sound depends on the density of the medium.
-Military,/ˈmɪl.ə.ter.i/,adj. 军事的,(Context) Many early computers were funded for military purposes.
-Minimal,/ˈmɪn.ə.məl/,adj. 最小的,We adjusted the parameters to ensure minimal energy loss.
-Mutual,/ˈmjuː.tʃu.əl/,adj. 相互的,The particles exert a mutual repulsion force on each other.
-Norm,/nɔːrm/,n. 规范，范数,We calculated the Euclidean norm of the vector.
-Overlap,/ˌoʊ.vɚˈlæp/,v. 重叠; n. 重叠,The orbitals of the two atoms overlap to form a chemical bond.
-Passive,/ˈpæs.ɪv/,adj. 被动的,"A passive component, like a resistor, does not generate energy."
-Portion,/ˈpɔːr.ʃən/,n. 部分,A significant portion of the code is dedicated to error handling.
-Preliminary,/prɪˈlɪm.ə.ner.i/,adj. 初步的,Preliminary results suggest that the material is a semiconductor.
-Protocol,/ˈproʊ.t̬ə.kɑːl/,n. 协议，草案,The data transfer follows the TCP/IP protocol.
-Qualitative,/ˈkwɑː.lə.teɪ.t̬ɪv/,adj. 定性的,We provided a qualitative explanation for the observed trend.
-Refine,/rɪˈfaɪn/,v. 提炼，改进,We need to refine the mesh to capture the sharp gradient.
-Relax,/rɪˈlæks/,v. 放松，弛豫,We allowed the atomic structure to relax to its ground state.
-Restrain,/rɪˈstreɪn/,v. 抑制，约束,The atoms are restrained by the harmonic potential.
-Revolution,/ˌrev.əˈluː.ʃən/,n. 革命，旋转,The discovery of quantum mechanics caused a revolution in physics.
-Rigid,/ˈrɪdʒ.ɪd/,adj. 刚性的，严格的,"In the rigid band approximation, the band structure does not change with doping."
-Route,/ruːt/,n. 路径，途径,We explored a different synthetic route to produce pure MnTe.
-Scenario,/səˈner.i.oʊ/,n. 设想，方案,We simulated a worst-case scenario where the cooling system fails.
-Sphere,/sfɪr/,n. 球体，范围,The integration was performed over a sphere in momentum space.
-Subordinate,/səˈbɔːr.dən.ət/,adj. 次要的，下级的,This effect is subordinate to the dominant Coulomb interaction.
-Supplement,/ˈsʌp.lə.ment/,n. 补充; v. 增补,The text is supplemented by a detailed appendix of formulas.
-Suspend,/səˈspend/,v. 悬浮，暂停,The particles were suspended in a fluid solution.
-Team,/tiːm/,n. 团队,Our research team consists of physicists and computer scientists.
-Temporary,/ˈtem.pə.rer.i/,adj. 暂时的,We used a temporary file to store the intermediate data.
-Trigger,/ˈtrɪɡ.ɚ/,v. 触发，引起,A laser pulse was used to trigger the phase transition.
-Unify,/ˈjuː.nə.faɪ/,v. 统一,Maxwell's equations unify the theories of electricity and magnetism.
-Violate,/ˈvaɪ.ə.leɪt/,v. 违反,This result appears to violate the second law of thermodynamics.
-Vision,/ˈvɪʒ.ən/,n. 视力，愿景,Our vision is to create a fully fault-tolerant quantum computer.
+**Constitutional** /ˌkɑːn.stəˈtuː.ʃən.əl/ — adj. 组成的，宪法的
+> We examined the constitutional defects in the crystal lattice structure.
 
-Word,Phonetic (IPA),Part of Speech & Chinese Meaning,Example Sentence
-Adjacent,/əˈdʒeɪ.sənt/,adj. 邻近的,The spin interacts with its adjacent neighbors in the lattice.
-Assemble,/əˈsem.bəl/,v. 集合，组装,We need to assemble the experimental apparatus before calibrating it.
-Collapse,/kəˈlæps/,v. 坍塌，瓦解,"In quantum mechanics, the wavefunction collapses upon measurement."
-Colleague,/ˈkɑː.liːɡ/,n. 同事,I discussed the simulation results with my colleague in the lab.
-Compile,/kəmˈpaɪl/,v. 编译，汇编,You must compile the VASP source code using the Intel Fortran compiler.
-Conceive,/kənˈsiːv/,v. 构想，设想,It is difficult to conceive of a universe without the laws of thermodynamics.
-Convince,/kənˈvɪns/,v. 说服,The data was strong enough to convince the reviewers of our theory.
-Depress,/dɪˈpres/,v. 降低，压下,Impurities can depress the freezing point of the liquid.
-Encounter,/ɪnˈkaʊn.t̬ɚ/,v. 遇到,We encountered a segmentation fault when running the script.
-Enormous,/əˈnɔːr.məs/,adj. 巨大的,The calculation requires an enormous amount of disk space.
-Forthcoming,/ˈfɔːrθˌkʌm.ɪŋ/,adj. 即将到来的,The results will be presented in a forthcoming paper.
-Incline,/ɪnˈklaɪn/,v. 倾向于; n. 斜坡,We incline to the view that the effect is purely magnetic.
-Integrity,/ɪnˈteɡ.rə.t̬i/,n. 完整性，正直,We must check the integrity of the data file after the transfer.
-Intrinsic,/ɪnˈtrɪn.zɪk/,adj. 本征的，固有的,Silicon is an intrinsic semiconductor at high temperatures.
-Invoke,/ɪnˈvoʊk/,v. 调用，引用,The Python script invokes a C++ subroutine for the heavy calculations.
-Levy,/ˈlev.i/,n. 税款; v. 征收,(Rare in physics) A levy was placed on imported scientific equipment.
-Likewise,/ˈlaɪk.waɪz/,adv. 同样地,"The first sample was annealed; likewise, the second sample underwent heat treatment."
-Nonetheless,/ˌnʌn.ðəˈles/,adv. 尽管如此,"The model is simple; nonetheless, it captures the essential physics."
-Notwithstanding,/ˌnɑːt.wɪðˈstæn.dɪŋ/,prep. 尽管,"Notwithstanding the errors, the general trend is clear."
-Odd,/ɑːd/,adj. 奇数的，古怪的,The wave function has odd parity with respect to inversion.
-Ongoing,/ˈɑːnˌɡoʊ.ɪŋ/,adj. 进行中的,There is an ongoing investigation into the cause of the system crash.
-Panel,/ˈpæn.əl/,n. 面板，专家组,The user interface has a control panel for setting parameters.
-Persist,/pɚˈsɪst/,v. 坚持，持续,The magnetic order persists up to 350 Kelvin.
-Pose,/poʊz/,v. 造成，提出,This problem poses a significant challenge to current computational methods.
-Reluctance,/rɪˈlʌk.təns/,n. 磁阻，不情愿,Magnetic reluctance is analogous to electrical resistance.
-So-called,/ˌsoʊˈkɑːld/,adj. 所谓的,"We investigated the so-called ""anomalous Hall effect."""
-Straightforward,/ˌstreɪtˈfɔːr.wɚd/,adj. 直接的，简单的,The installation process for the library is quite straightforward.
-Undergo,/ˌʌn.dɚˈɡoʊ/,v. 经历，经受,The material undergoes a phase transition at critical temperature Tc​.
-Whereby,/werˈbaɪ/,adv. 凭此，借以,We developed a method whereby the noise can be filtered out efficiently.
+**Context** /ˈkɑːn.tekst/ — n. 背景，环境，语境
+> In the context of semiconductor physics, this phenomenon is negligible.
 
+**Contract** /ˈkɑːn.trækt/ — n. 合同; v. 收缩
+> The material tends to contract rapidly when cooled to absolute zero.
+
+**Create** /kriˈeɪt/ — v. 创造，造成
+> The goal is to create a stable environment for the reaction.
+
+**Data** /ˈdeɪ.t̬ə/ — n. 数据
+> All raw data were processed using Python scripts.
+
+**Definition** /ˌdef.ɪˈnɪʃ.ən/ — n. 定义
+> A clear definition of the boundary conditions is required for the simulation.
+
+**Derive** /dɪˈraɪv/ — v. 源于，导出
+> We can derive the formula from Newton’s second law of motion.
+
+**Distribution** /ˌdɪs.trɪˈbjuː.ʃən/ — n. 分布，分配
+> The probability distribution of the electrons was plotted in Figure 3.
+
+**Economic** /iː.kəˈnɑː.mɪk/ — adj. 经济的，有利可图的
+> We must consider the economic feasibility of mass-producing this material.
+
+**Environment** /ɪnˈvaɪ.rən.mənt/ — n. 环境
+> The experiment was conducted in a controlled vacuum environment.
+
+**Establish** /ɪˈstæb.lɪʃ/ — v. 建立，确立
+> Further studies are needed to establish a causal relationship.
+
+**Estimate** /ˈes.tə.meɪt/ — v. 估计，估算
+> We estimate the error margin to be less than 5%.
+
+**Evidence** /ˈev.ə.dəns/ — n. 证据
+> There is compelling evidence to support the existence of altermagnetism here.
+
+**Factor** /ˈfæk.tɚ/ — n. 因素，要素
+> Temperature is a critical factor influencing the conductivity.
+
+**Finance** /ˈfaɪ.næns/ — n. 金融; v. 资助
+> The project was financed by the National Science Foundation.
+
+**Formula** /ˈfɔːr.mjə.lə/ — n. 公式，配方
+> The chemical formula for Manganese Telluride is MnTe.
+
+**Function** /ˈfʌŋk.ʃən/ — n. 功能，函数; v. 运行
+> The wave function describes the quantum state of the system.
+
+**Identify** /aɪˈden.t̬ə.faɪ/ — v. 识别，认出
+> We used spectroscopy to identify the impurities in the sample.
+
+**Income** /ˈɪn.kʌm/ — n. 收入
+> (Academic context often refers to funding/grants)
+
+**Indicate** /ˈɪn.də.keɪt/ — v. 指示，表明
+> The red curve indicates the behavior of the system under high pressure.
+
+**Individual** /ˌɪn.dəˈvɪdʒ.u.əl/ — adj. 个人的，独特的; n. 个人
+> Each individual atom in the lattice structure contributes to the total magnetic moment.
+
+**Interpret** /ɪnˈtɜː.prɪt/ — v. 解释，说明，口译
+> We must carefully interpret the spectral data to avoid false conclusions.
+
+**Involve** /ɪnˈvɑːlv/ — v. 包含，涉及
+> The calculation process involves solving a complex set of differential equations.
+
+**Issue** /ˈɪʃ.uː/ — n. 问题，议题; v. 发行
+> Compatibility between the two libraries was a major issue during development.
+
+**Labor** /ˈleɪ.bɚ/ — n. 劳动，劳工; v. 苦干
+> Manual data entry is a labor-intensive process that we aim to automate.
+
+**Legal** /ˈliː.ɡəl/ — adj. 法律的，合法的
+> We must ensure all software licenses comply with legal requirements.
+
+**Legislate** /ˈledʒ.ə.sleɪt/ — v. 立法
+> Governments often legislate to control the use of hazardous materials in research.
+
+**Major** /ˈmeɪ.dʒɚ/ — adj. 主要的，重大的
+> A major breakthrough in superconductivity was announced last week.
+
+**Method** /ˈmeθ.əd/ — n. 方法
+> The Monte Carlo method is widely used for stochastic simulations.
+
+**Occur** /əˈkɝː/ — v. 发生，出现
+> Phase transitions typically occur at specific critical temperatures.
+
+**Percent** /pɚˈsent/ — n. 百分比
+> The error rate was reduced to less than one percent.
+
+**Period** /ˈpɪr.i.əd/ — n. 时期，周期
+> The oscillation period depends on the mass of the pendulum.
+
+**Policy** /ˈpɑː.lə.si/ — n. 政策，方针
+> The university has a strict policy regarding laboratory safety.
+
+**Principle** /ˈprɪn.sə.pəl/ — n. 原理，原则
+> The principle of conservation of energy is fundamental to physics.
+
+**Proceed** /proʊˈsiːd/ — v. 继续进行，前进
+> Once the setup is calibrated, we can proceed with the measurements.
+
+**Process** /ˈprɑː.ses/ — n. 过程; v. 处理
+> The data process pipeline includes cleaning, normalization, and analysis.
+
+**Require** /rɪˈkwaɪr/ — v. 需要，要求
+> Running this simulation will require significant memory resources on the supercomputer.
+
+**Research** /ˈriː.sɝːtʃ/ — n. 研究; v. 研究
+> His research focuses on the topological properties of materials.
+
+**Respond** /rɪˈspɑːnd/ — v. 回答，作出反应
+> The system does not respond linearly to the applied voltage.
+
+**Role** /roʊl/ — n. 角色，作用
+> Spin-orbit coupling plays a crucial role in the splitting of energy bands.
+
+**Section** /ˈsek.ʃən/ — n. 部分，章节，截面
+> The next section of the paper discusses the experimental setup.
+
+**Sector** /ˈsek.tɚ/ — n. 部门，领域
+> The technology sector is investing heavily in quantum computing.
+
+**Significant** /sɪɡˈnɪf.ə.kənt/ — adj. 重要的，显著的
+> There is a significant difference between the two datasets.
+
+**Similar** /ˈsɪm.ə.lɚ/ — adj. 相似的
+> We observed a similar pattern in the control group.
+
+**Source** /sɔːrs/ — n. 来源，源头
+> We identified the noise source as thermal fluctuations.
+
+**Specific** /spəˈsɪf.ɪk/ — adj. 特定的，具体的
+> This tool is designed for a specific type of file format.
+
+**Structure** /ˈstrʌk.tʃɚ/ — n. 结构; v. 组织
+> The crystal structure of MnTe was determined using X-ray diffraction.
+
+**Theory** /ˈθɪr.i/ — n. 理论
+> The experimental results challenge the existing theory of superconductivity.
+
+**Vary** /ˈver.i/ — v. 变化，改变
+> The conductivity tends to vary with the concentration of dopants.
+
+**Achieve** /əˈtʃiːv/ — v. 实现，达到
+> The new algorithm helped us achieve a 20% increase in speed.
+
+---
+
+## Sublist 2
+
+**Acquire** /əˈkwaɪr/ — v. 获得，采集
+> We need to acquire more data points to validate the trend.
+
+**Administer** /ədˈmɪn.ə.stɚ/ — v. 管理，执行
+> The script automatically administers the distribution of tasks to different nodes.
+
+**Affect** /əˈfekt/ — v. 影响
+> External magnetic fields significantly affect the electron transport.
+
+**Appropriate** /əˈproʊ.pri.ət/ — adj. 适当的，恰当的
+> We must select an appropriate basis set for the VASP calculations.
+
+**Aspect** /ˈæs.pekt/ — n. 方面，层面
+> The topological aspect of the material is the focus of this paper.
+
+**Assist** /əˈsɪst/ — v. 协助，帮助
+> A Python script was written to assist in the post-processing of data.
+
+**Category** /ˈkæt.ə.ɡɔːr.i/ — n. 类别，种类
+> These semiconductors fall into a specific category of altermagnets.
+
+**Chapter** /ˈtʃæp.tɚ/ — n. 章，回
+> The third chapter of the thesis details the simulation methodology.
+
+**Commission** /kəˈmɪʃ.ən/ — n. 委员会; v. 委托
+> The supercomputer was commissioned for use by the physics department.
+
+**Community** /kəˈmjjuː.nə.t̬i/ — n. 社区，界
+> The results were well-received by the scientific community.
+
+**Complex** /kɑːmˈpleks/ — adj. 复杂的
+> The interaction between the layers creates a complex energy landscape.
+
+**Compute** /kəmˈpjuːt/ — v. 计算
+> We used the cluster to compute the band structure.
+
+**Conclude** /kənˈkluːd/ — v. 推断出，结束
+> We conclude that strain plays a major role in the device's performance.
+
+**Conduct** /kənˈdʌkt/ — v. 进行，传导
+> Gold is known to conduct electricity very efficiently.
+
+**Consequent** /ˈkɑːn.sə.kwənt/ — adj. 随之发生的
+> The voltage drop and consequent heating were measured.
+
+**Construct** /kənˈstrʌkt/ — v. 构建，建造
+> We constructed a theoretical model to explain the anomaly.
+
+**Consume** /kənˈsuːm/ — v. 消耗
+> The simulation consumes a large amount of RAM.
+
+**Credit** /ˈkred.ɪt/ — n. 信用，赞誉
+> We give credit to the authors of the original code.
+
+**Culture** /ˈkʌl.tʃɚ/ — n. 文化，培养(皿)
+> The lab has a strong culture of collaboration and open-source sharing.
+
+**Design** /dɪˈzaɪn/ — v. 设计
+> We designed the experiment to isolate the piezoelectric effect.
+
+**Distinct** /dɪˈstɪŋkt/ — adj. 明显的，独特的
+> There are two distinct phases observable in the diagram.
+
+**Element** /ˈel.ə.mənt/ — n. 元素，要素
+> Manganese is a transition metal element.
+
+**Equate** /ɪˈkweɪt/ — v. 使相等，视为同等
+> We cannot simply equate high speed with high efficiency in this case.
+
+**Evaluate** /ɪˈvæl.ju.eɪt/ — v. 评估，评价
+> We need to evaluate the stability of the crystal structure.
+
+**Feature** /ˈfiː.tʃɚ/ — n. 特征，特色
+> A key feature of this library is its compatibility with C++.
+
+**Final** /ˈfaɪ.nəl/ — adj. 最终的
+> The final step involves visualizing the output with plotting tools.
+
+**Focus** /ˈfoʊ.kəs/ — v. 聚焦，集中
+> This study focuses on the properties of MnTe.
+
+**Impact** /ˈɪm.pækt/ — n. 影响，冲击
+> The impact of noise on the signal was minimal.
+
+**Injure** /ˈɪn.dʒɚ/ — v. 伤害，损害
+> (Rarely used in physics, usually refers to physical harm).
+
+**Institute** /ˈɪn.stə.tuːt/ — n. 研究所，学院; v. 建立
+> The institute recently acquired a new cluster for high-performance computing.
+
+**Invest** /ɪnˈvest/ — v. 投资，投入
+> We must invest significant time in optimizing the code for the supercomputer.
+
+**Item** /ˈaɪ.t̬əm/ — n. 项目，条款
+> Please check every item on the simulation checklist before submitting the job.
+
+**Journal** /ˈdʒɝː.nəl/ — n. 期刊，日志
+> Our findings were published in a leading physics journal.
+
+**Maintain** /meɪnˈteɪn/ — v. 维持，保持
+> It is difficult to maintain a vacuum state for long periods.
+
+**Normal** /ˈnɔːr.məl/ — adj. 正常的，正交的
+> The vector is normal (perpendicular) to the surface plane.
+
+**Obtain** /əbˈteɪn/ — v. 获得，得到
+> We used density functional theory (DFT) to obtain the ground state energy.
+
+**Participate** /pɑːrˈtɪs.ə.peɪt/ — v. 参与
+> Electrons in the outer shell participate in chemical bonding.
+
+**Perceive** /pəˈsiːv/ — v. 感知，察觉
+> The sensor is designed to perceive minute changes in temperature.
+
+**Positive** /ˈpɑː.zə.tɪv/ — adj. 积极的，正的
+> The protons carry a positive charge.
+
+**Potential** /poʊˈten.ʃəl/ — n. 电势，潜力; adj. 可能的
+> We calculated the electric potential across the junction.
+
+**Previous** /ˈpriː.vi.əs/ — adj. 先前的
+> Previous studies failed to account for spin-orbit coupling.
+
+**Primary** /ˈpraɪ.mer.i/ — adj. 主要的，初级的
+> The primary goal of this research is to improve device efficiency.
+
+**Purchase** /ˈpɝː.tʃəs/ — v. 购买
+> We need to purchase a license for the commercial version of the software.
+
+**Range** /reɪndʒ/ — n. 范围
+> The experiment covers a temperature range from 10K to 300K.
+
+**Region** /ˈriː.dʒən/ — n. 区域
+> The depletion region widens as the reverse bias increases.
+
+**Regulate** /ˈreɡ.jə.leɪt/ — v. 调节，控制
+> A thermostat is used to regulate the temperature of the sample.
+
+**Relevant** /ˈrel.ə.vənt/ — adj. 相关的
+> Only relevant data points were included in the final analysis.
+
+**Reside** /rɪˈzaɪd/ — v. 居住，存在
+> The script and input files reside in the same directory.
+
+**Resource** /ˈriː.sɔːrs/ — n. 资源
+> Computational resources are limited on the shared node.
+
+**Restrict** /rɪˈstrɪkt/ — v. 限制，约束
+> The boundary conditions restrict the wave function to a finite box.
+
+**Secure** /səˈkjʊr/ — adj. 安全的; v. 获得
+> We used SSH to establish a secure connection to the server.
+
+**Seek** /siːk/ — v. 寻找，探索
+> We seek to understand the mechanism behind the giant magnetoresistance.
+
+**Select** /səˈlekt/ — v. 选择
+> The algorithm automatically selects the optimal parameters.
+
+**Site** /saɪt/ — n. 地点，位置(晶格点)
+> The impurity atom occupies an interstitial site in the lattice.
+
+**Strategy** /ˈstræt̬.ə.dʒi/ — n. 策略
+> Our strategy involves combining machine learning with traditional simulations.
+
+**Survey** /ˈsɝː.veɪ/ — n. 调查，综述
+> A comprehensive survey of recent literature was conducted.
+
+**Text** /tekst/ — n. 文本
+> The input file is a simple text document containing coordinate data.
+
+**Tradition** /trəˈdɪʃ.ən/ — n. 传统
+> By tradition, the first author performs the bulk of the experiments.
+
+**Transfer** /trænsˈfɝː/ — v. 转移，传输
+> Charge transfer occurs at the interface between the two materials.
+
+**Alternative** /ɑːlˈtɝː.nə.t̬ɪv/ — n. 替代品; adj. 两者择一的
+> We proposed an alternative algorithm to reduce the calculation time.
+
+---
+
+## Sublist 3
+
+**Circumstance** /ˈsɝː.kəm.stæns/ — n. 情况，环境
+> Under these circumstances, the approximation is no longer valid.
+
+**Comment** /ˈkɑːm.ent/ — n. 评论，注释; v. 评论
+> Please add comments to your code to explain this function.
+
+**Compensate** /ˈkɑːm.pən.seɪt/ — v. 补偿，抵消
+> We increased the voltage to compensate for the resistance loss.
+
+**Component** /kəmˈpoʊ.nənt/ — n. 成分，组件
+> The GPU is a critical component for accelerating the simulation.
+
+**Consent** /kənˈsent/ — n. 同意; v. 同意
+> We obtained consent to use the dataset for our research.
+
+**Considerable** /kənˈsɪd.ɚ.ə.bəl/ — adj. 相当大的，重要的
+> A considerable amount of noise was observed in the signal.
+
+**Constant** /ˈkɑːn.stənt/ — n. 常数; adj. 恒定的
+> Planck's constant is a fundamental physical constant.
+
+**Constrain** /kənˈstreɪn/ — v. 约束，限制
+> The atoms are constrained to move within a 2D plane.
+
+**Contribute** /kənˈtrɪb.juːt/ — v. 贡献，导致
+> Several factors contribute to the instability of the system.
+
+**Convene** /kənˈviːn/ — v. 召集，集合
+> The committee will convene to review the research proposals.
+
+**Coordinate** /koʊˈɔːr.dən.ət/ — n. 坐标; v. 协调
+> The atomic coordinates were optimized using VASP.
+
+**Core** /kɔːr/ — n. 核心; adj. 核心的
+> The core dump file indicates a segmentation fault in the code.
+
+**Corporate** /ˈkɔːr.pɚ.ət/ — adj. 公司的，法人的
+> (Less common in physics) We received funding from corporate sponsors.
+
+**Correspond** /ˌkɔːr.əˈspɑːnd/ — v. 对应，符合
+> The peaks in the graph correspond to the energy levels of the atom.
+
+**Criteria** /kraɪˈtɪr.i.ə/ — n. 标准 (plural)
+> The convergence criteria for the self-consistent loop were set to 1e-6 eV.
+
+**Deduce** /dɪˈduːs/ — v. 推导，推论
+> From the spectral lines, we can deduce the chemical composition.
+
+**Demonstrate** /ˈdem.ən.streɪt/ — v. 证明，展示
+> This figure demonstrates the linear relationship between strain and bandgap.
+
+**Document** /ˈdɑː.kjə.ment/ — n. 文件; v. 记录
+> It is important to document every step of the experimental procedure.
+
+**Dominate** /ˈdɑː.mə.neɪt/ — v. 支配，占优势
+> At low temperatures, quantum effects dominate the behavior of the system.
+
+**Emphasis** /ˈem.fə.sɪs/ — n. 强调，重点
+> There is a strong emphasis on efficiency in high-performance computing.
+
+**Ensure** /ɪnˈʃʊr/ — v. 确保
+> Please ensure that all dependencies are installed before running the script.
+
+**Exclude** /ɪkˈskluːd/ — v. 排除
+> We decided to exclude the outliers from the statistical analysis.
+
+**Framework** /ˈfreɪm.wɝːk/ — n. 框架，构架
+> We built our simulation on the PyTorch framework.
+
+**Fund** /fʌnd/ — n. 基金; v. 资助
+> The research is funded by the Department of Energy.
+
+**Illustrate** /ˈɪl.ə.streɪt/ — v. 举例说明，图解
+> Figure 1 illustrates the crystal structure of Manganese Telluride.
+
+**Immigrate** /ˈɪm.ə.ɡreɪt/ — v. 移民
+> (Rare in physics context) Scientists often immigrate to countries with better research funding.
+
+**Imply** /ɪmˈplaɪ/ — v. 暗示，意味着
+> These results imply that a phase transition has occurred.
+
+**Initial** /ɪˈnɪʃ.əl/ — adj. 最初的
+> The initial guess for the wavefunction was generated randomly.
+
+**Instance** /ˈɪn.stəns/ — n. 实例，情况
+> In this particular instance, the algorithm failed to converge.
+
+**Interact** /ˌɪn.t̬ɚˈækt/ — v. 相互作用
+> The electrons interact with the lattice vibrations (phonons).
+
+**Justify** /ˈdʒʌs.tə.faɪ/ — v. 证明...是正当的，辩解
+> We must justify the use of this approximation in our model.
+
+**Layer** /ˈleɪ.ɚ/ — n. 层
+> The material consists of alternating layers of MnTe and the substrate.
+
+**Link** /lɪŋk/ — n. 联系，链接; v. 连接
+> There is a direct link between the strain applied and the magnetic moment.
+
+**Locate** /loʊˈkeɪt/ — v. 定位，找出
+> The script attempts to locate the energy minimum on the potential surface.
+
+**Maximize** /ˈmæk.sə.maɪz/ — v. 最大化
+> The code was optimized to maximize parallel efficiency on the GPU.
+
+**Minor** /ˈmaɪ.nɚ/ — adj. 次要的，较小的
+> We observed only minor deviations from the theoretical curve.
+
+**Negate** /nɪˈɡeɪt/ — v. 否定，抵消
+> The presence of impurities may negate the benefits of the doping.
+
+**Outcome** /ˈaʊt.kʌm/ — n. 结果
+> The outcome of the simulation depends heavily on the initial conditions.
+
+**Partner** /ˈpɑːrt.nɚ/ — n. 伙伴，搭档
+> We are looking for a research partner to assist with the experimental verification.
+
+**Philosophy** /fɪˈlɑː.sə.fi/ — n. 哲学，原理
+> The design philosophy of this software is "modularity first."
+
+**Physical** /ˈfɪz.ɪ.kəl/ — adj. 物理的，身体的
+> We measured the physical properties of the sample, such as density and conductivity.
+
+**Proportion** /prəˈpɔːr.ʃən/ — n. 比例，部分
+> A large proportion of the computational time is spent on matrix diagonalization.
+
+**Publish** /ˈpʌb.lɪʃ/ — v. 出版，发表
+> We aim to publish these findings in Physical Review Letters.
+
+**React** /riˈækt/ — v. 反应
+> The system does not react instantly to the external field.
+
+**Register** /ˈredʒ.ə.stɚ/ — v. 登记，记录; n. 寄存器
+> The sensor failed to register any change in temperature.
+
+**Rely** /rɪˈlaɪ/ — v. 依赖，依靠
+> The accuracy of the result relies on the quality of the pseudopotentials.
+
+**Remove** /rɪˈmuːv/ — v. 移除，去除
+> We need to remove the vacuum layer to simulate bulk properties.
+
+**Scheme** /skiːm/ — n. 方案，计划
+> We employed a finite difference scheme to solve the equation.
+
+**Sequence** /ˈsiː.kwəns/ — n. 序列，顺序
+> The instructions must be executed in the correct sequence.
+
+**Shift** /ʃɪft/ — n. 移动，改变; v. 转移
+> There is a noticeable shift in the peak position due to the Doppler effect.
+
+**Specify** /ˈspes.ə.faɪ/ — v. 指定，详细说明
+> You must specify the number of cores in the job submission script.
+
+**Sufficient** /səˈfɪʃ.ənt/ — adj. 足够的，充足的
+> The current energy cutoff is not sufficient for convergence.
+
+**Task** /tæsk/ — n. 任务，工作
+> The main task of this subroutine is to calculate the forces on atoms.
+
+**Technical** /ˈtek.nɪ.kəl/ — adj. 技术的，专门的
+> The paper contains many technical details about the fabrication process.
+
+**Technique** /tekˈniːk/ — n. 技术，技巧
+> Density Functional Theory (DFT) is a standard technique in computational materials science.
+
+**Technology** /tekˈnɑː.lə.dʒi/ — n. 技术，工艺
+> Semiconductor technology relies on precise control of material properties.
+
+**Valid** /ˈvæl.ɪd/ — adj. 有效的，正当的
+> This equation is only valid under low-temperature conditions.
+
+**Volume** /ˈvɑːl.juːm/ — n. 体积，卷
+> The unit cell volume expands as the temperature increases.
+
+**Access** /ˈæk.ses/ — n. 通路，权限; v. 存取
+> We need root privileges to access the system configuration files.
+
+**Adequate** /ˈæd.ə.kwət/ — adj. 足够的，适当的
+> The current mesh density is not adequate for capturing the fine details.
+
+---
+
+## Sublist 4
+
+**Annual** /ˈæn.ju.əl/ — adj. 每年的
+> The department publishes an annual report on research progress.
+
+**Apparent** /əˈper.ənt/ — adj. 明显的，表面上的
+> The apparent discrepancy in the data was actually due to a calibration error.
+
+**Approximate** /əˈprɑːk.sə.mət/ — adj. 近似的; v. 近似
+> We used an approximate value for the dielectric constant.
+
+**Attitude** /ˈæt.t̬ə.tuːd/ — n. 态度，看法
+> A rigorous attitude towards data verification is essential for a scientist.
+
+**Attribute** /əˈtrɪb.juːt/ — v. 归因于; n. 属性
+> We attribute the peak splitting to the Zeeman effect.
+
+**Civil** /ˈsɪv.əl/ — adj. 公民的，民用的
+> (Rare in physics) This technology has both military and civil applications.
+
+**Code** /koʊd/ — n. 代码，准则; v. 编码
+> I spent the whole afternoon optimizing the C++ code for the simulation.
+
+**Commit** /kəˈmɪt/ — v. 承诺，犯(错)，提交(代码)
+> Don't forget to commit your changes to the Git repository before leaving.
+
+**Communicate** /kəˈmjuː.nə.keɪt/ — v. 交流，通信
+> The master node communicates with the worker nodes via MPI.
+
+**Concentrate** /ˈkɑːn.sən.treɪt/ — v. 集中，浓缩
+> We should concentrate our efforts on solving the convergence issue.
+
+**Confer** /kənˈfɝː/ — v. 商讨，授予
+> I need to confer with my supervisor before submitting the abstract.
+
+**Contrast** /ˈkɑːn.træst/ — n. 对比; v. 对照
+> In contrast to the previous model, this new approach considers spin dynamics.
+
+**Cycle** /ˈsaɪ.kəl/ — n. 循环，周期
+> The self-consistent field (SCF) cycle converged in 20 steps.
+
+**Debate** /dɪˈbeɪt/ — n. 辩论; v. 争论
+> There is an ongoing debate about the origin of high-temperature superconductivity.
+
+**Despite** /dɪˈspaɪt/ — prep. 尽管
+> Despite the high noise level, a clear signal was detected.
+
+**Dimension** /ˌdɪˈmen.ʃən/ — n. 维度，尺寸
+> Graphene is a famous two-dimensional material.
+
+**Domestic** /dəˈmes.tɪk/ — adj. 国内的，家庭的
+> We collaborated with several domestic universities on this project.
+
+**Emerge** /iˈmɝːdʒ/ — v. 浮现，出现
+> New properties often emerge at the interface of two materials.
+
+**Error** /ˈer.ɚ/ — n. 错误，误差
+> The systematic error of the instrument must be subtracted.
+
+**Ethnic** /ˈeθ.nɪk/ — adj. 种族的
+> (Rare in physics) Research groups often include members from diverse ethnic backgrounds.
+
+**Goal** /ɡoʊl/ — n. 目标
+> The ultimate goal is to achieve room-temperature superconductivity.
+
+**Grant** /ɡrænt/ — v. 授予，准许; n. 拨款
+> The user was granted access to the high-priority queue.
+
+**Hence** /hens/ — adv. 因此
+> The electrons are confined, hence the quantization of energy levels.
+
+**Hypothesis** /haɪˈpɑː.θə.sɪs/ — n. 假设
+> Our experimental results support the initial hypothesis.
+
+**Implement** /ˈɪm.plə.ment/ — v. 实施，执行
+> We plan to implement this algorithm in the next version of the software.
+
+**Implicate** /ˈɪm.plə.keɪt/ — v. 牵连，意味着
+> The data implicates phonon scattering as the main cause of resistivity.
+
+**Impose** /ɪmˈpoʊz/ — v. 强加，征收
+> Periodic boundary conditions were imposed on the simulation box.
+
+**Integrate** /ˈɪn.t̬ə.ɡreɪt/ — v. 整合，积分
+> The software integrates data analysis and visualization into one platform.
+
+**Internal** /ɪnˈtɝː.nəl/ — adj. 内部的
+> The internal energy of the system increases with temperature.
+
+**Investigate** /ɪnˈves.tə.ɡeɪt/ — v. 调查，研究
+> We plan to investigate the magnetic anisotropy of the crystal.
+
+**Job** /dʒɑːb/ — n. 工作，任务 (计算机作业)
+> The simulation job was submitted to the batch queue.
+
+**Label** /ˈleɪ.bəl/ — n. 标签; v. 标记
+> Please label the axes of the graph clearly with units.
+
+**Mechanism** /ˈmek.ə.nɪ.zəm/ — n. 机制，机理
+> The mechanism behind the giant magnetoresistance effect is complex.
+
+**Obvious** /ˈɑːb.vi.əs/ — adj. 明显的
+> It is obvious from Figure 2 that the conductivity drops sharply.
+
+**Occupy** /ˈɑː.kjə.paɪ/ — v. 占据
+> Electrons fill the bands starting from the lowest energy states to occupy the valence band.
+
+**Option** /ˈɑːp.ʃən/ — n. 选项
+> We added a compilation option to enable GPU acceleration.
+
+**Output** /ˈaʊt.pʊt/ — n. 输出
+> The output file contains the relaxed atomic coordinates.
+
+**Overall** /oʊ.vɚˈɑːl/ — adj. 全部的，总体的
+> The overall performance of the code was improved by 30%.
+
+**Parallel** /ˈper.ə.lel/ — adj. 平行的，并行的
+> We used parallel computing to speed up the matrix diagonalization.
+
+**Parameter** /pəˈræm.ə.t̬ɚ/ — n. 参数
+> The lattice parameter a was optimized using DFT.
+
+**Phase** /feɪz/ — n. 相，阶段
+> The material undergoes a phase transition at 150 K.
+
+**Predict** /prɪˈdɪkt/ — v. 预测
+> Theoretical models predict that this material is a topological insulator.
+
+**Principal** /ˈprɪn.sə.pəl/ — adj. 主要的
+> The principal investigator (PI) is responsible for the grant management.
+
+**Prior** /ˈpraɪ.ɚ/ — adj. 先前的
+> Prior knowledge of the crystal symmetry helps in setting up the calculation.
+
+**Professional** /prəˈfeʃ.ən.əl/ — adj. 专业的
+> You should seek professional advice on patenting this discovery.
+
+**Project** /ˈprɑː.dʒekt/ — n. 项目; v. 投射
+> This research project focuses on renewable energy materials.
+
+**Promote** /prəˈmoʊt/ — v. 促进
+> Doping can promote charge carrier mobility in the semiconductor.
+
+**Regime** /reɪˈʒiːm/ — n. (物理) 状态，范围，政权
+> In the quantum regime, classical mechanics is no longer applicable.
+
+**Resolve** /rɪˈzɑːlv/ — v. 分辨，解决
+> The instrument can resolve features as small as 5 nanometers.
+
+**Retain** /rɪˈteɪn/ — v. 保持，保留
+> The sample retains its magnetic properties even at room temperature.
+
+**Series** /ˈsɪr.iːz/ — n. 系列，级数
+> We performed a series of tests to verify the code's stability.
+
+**Statistic** /stəˈtɪs.tɪk/ — n. 统计数值
+> The Fermi-Dirac statistic governs the distribution of electrons.
+
+**Status** /ˈsteɪ.t̬əs/ — n. 状态
+> You can check the status of your running jobs using the qstat command.
+
+**Stress** /stres/ — n. 应力，压力; v. 强调
+> Applying shear stress can alter the electronic band structure.
+
+**Subsequent** /ˈsʌb.sɪ.kwənt/ — adj. 随后的
+> Subsequent analysis revealed a minor error in the initial data.
+
+**Sum** /sʌm/ — n. 总和
+> The total energy is the sum of kinetic and potential energies.
+
+**Summary** /ˈsʌm.ɚ.i/ — n. 摘要，总结
+> The abstract provides a brief summary of the paper's main findings.
+
+**Undertake** /ˌʌn.dɚˈteɪk/ — v. 承担，从事
+> We plan to undertake a comprehensive study of this alloy system.
+
+**Academy** /əˈkæd.ə.mi/ — n. 学院，学会
+> The research was presented at the National Academy of Sciences.
+
+**Adjust** /əˈdʒʌst/ — v. 调整，调节
+> We need to adjust the input parameters to improve convergence.
+
+---
+
+## Sublist 5
+
+**Alter** /ˈɑːl.tɚ/ — v. 改变，更改
+> Doping with chromium can significantly alter the magnetic properties.
+
+**Amend** /əˈmend/ — v. 修正，修订
+> The manuscript was amended based on the reviewers' comments.
+
+**Aware** /əˈwer/ — adj. 意识到的
+> Researchers should be aware of the limitations of this approximation.
+
+**Capacity** /kəˈpæs.ə.t̬i/ — n. 容量，能力
+> The new supercomputer has a much higher processing capacity.
+
+**Challenge** /ˈtʃæl.ɪndʒ/ — n. 挑战; v. 质疑
+> Modeling the electron correlation remains a major challenge in this field.
+
+**Compound** /ˈkɑːm.paʊnd/ — n. 化合物; adj. 复合的
+> Manganese Telluride (MnTe) is an antiferromagnetic compound.
+
+**Conflict** /ˈkɑːn.flɪkt/ — n. 冲突，矛盾
+> There is a conflict between the experimental data and the theoretical model.
+
+**Consult** /kənˈsʌlt/ — v. 咨询，查阅
+> Please consult the documentation for the correct syntax of the command.
+
+**Contact** /ˈkɑːn.tækt/ — n. 接触，联系; v. 联系
+> The electrical contact resistance must be minimized for accurate measurements.
+
+**Decline** /dɪˈklaɪn/ — v. 下降，拒绝
+> The conductivity tends to decline as the temperature rises.
+
+**Draft** /dræft/ — n. 草稿; v. 起草
+> I am writing the first draft of my thesis introduction.
+
+**Enable** /ɪˈneɪ.bəl/ — v. 使能够
+> This new algorithm will enable us to simulate larger systems.
+
+**Energy** /ˈen.ɚ.dʒi/ — n. 能量
+> The Fermi energy level lies within the band gap.
+
+**Equivalent** /ɪˈkwɪv.ə.lənt/ — adj. 等价的，相等的
+> This formulation is mathematically equivalent to the Schrödinger equation.
+
+**Evolution** /ˌev.əˈluː.ʃən/ — n. 演变，进化
+> We tracked the time evolution of the wave packet.
+
+**Expand** /ɪkˈspænd/ — v. 扩张，展开
+> We plan to expand the model to include spin-orbit coupling effects.
+
+**Expose** /ɪkˈspoʊz/ — v. 暴露，揭露
+> The sample was exposed to air, causing oxidation on the surface.
+
+**External** /ɪkˈstɝː.nəl/ — adj. 外部的
+> An external electric field was applied to the device.
+
+**Facilitate** /fəˈsɪl.ə.teɪt/ — v. 促进，使便利
+> Python scripts are often used to facilitate data post-processing.
+
+**Fundamental** /ˌfʌn.dəˈmen.t̬əl/ — adj. 基本的，根本的
+> Understanding electron transport is fundamental to semiconductor physics.
+
+**Generate** /ˈdʒen.ə.reɪt/ — v. 产生，生成
+> The simulation will generate a large amount of output data.
+
+**Image** /ˈɪm.ɪdʒ/ — n. 图像，影像
+> The atomic structure was visualized using a TEM image.
+
+**Logic** /ˈlɑː.dʒɪk/ — n. 逻辑
+> The control logic of the program ensures that the loop terminates correctly.
+
+**Margin** /ˈmɑːr.dʒɪn/ — n. 边缘，余地
+> The result is within the margin of error for this instrument.
+
+**Monitor** /ˈmɑː.nə.t̬ɚ/ — v. 监控; n. 显示器
+> We need to monitor the temperature fluctuations during the experiment.
+
+**Network** /ˈnet.wɝːk/ — n. 网络
+> The compute nodes are connected via a high-speed InfiniBand network.
+
+**Notion** /ˈnoʊ.ʃən/ — n. 概念，想法
+> The notion that time is absolute was challenged by Einstein.
+
+**Objective** /əbˈdʒek.tɪv/ — n. 目标; adj. 客观的
+> The primary objective is to calculate the band structure of MnTe.
+
+**Orient** /ˈɔːr.i.ent/ — v. 使适应，定方向
+> The crystal was oriented along the [001] axis for the measurement.
+
+**Perspective** /pɚˈspek.tɪv/ — n. 观点，视角
+> From a theoretical perspective, the results are quite promising.
+
+**Precise** /prəˈsaɪs/ — adj. 精确的
+> We need a precise calculation of the lattice constants.
+
+**Prime** /praɪm/ — adj. 首要的，最好的
+> The prime focus of this study is the transport property of the material.
+
+**Pursue** /pɚˈsuː/ — v. 追求，从事
+> Many students wish to pursue a career in computational physics.
+
+**Ratio** /ˈreɪ.ʃi.oʊ/ — n. 比率
+> The signal-to-noise ratio was improved by averaging the data.
+
+**Reject** /rɪˈdʒekt/ — v. 拒绝，排斥
+> The journal may reject the paper if the English is not polished.
+
+**Stable** /ˈsteɪ.bəl/ — adj. 稳定的
+> The solution is numerically stable even with large time steps.
+
+**Style** /staɪl/ — n. 风格，样式
+> The coding style should follow the PEP 8 guidelines for Python.
+
+**Substitute** /ˈsʌb.stə.tuːt/ — v. 代替; n. 代替品
+> We can substitute the complex potential with a simpler approximation.
+
+**Sustain** /səˈsteɪn/ — v. 维持，支撑
+> The reaction is self-sustaining once the critical temperature is reached.
+
+**Symbol** /ˈsɪm.bəl/ — n. 符号
+> The Greek symbol ψ (psi) usually represents the wavefunction.
+
+**Target** /ˈtɑːr.ɡɪt/ — n. 目标; v. 瞄准
+> Our target is to reduce the computational cost by 50%.
+
+**Transit** /ˈtræn.sɪt/ — n. 运输，经过
+> We modeled the electron transit time through the device.
+
+**Trend** /trend/ — n. 趋势
+> Figure 4 shows a clear linear trend in the data points.
+
+**Version** /ˈvɝː.ʃən/ — n. 版本
+> Please ensure you are using the latest version of VASP.
+
+**Whereas** /werˈæz/ — conj. 然而，鉴于
+> Metals conduct electricity well, whereas insulators do not.
+
+**Abstract** /ˈæb.strækt/ — n. 摘要; adj. 抽象的
+> The abstract summarizes the key findings of the research paper.
+
+**Accurate** /ˈæk.jɚ.ət/ — adj. 准确的
+> DFT calculations are generally accurate for ground-state properties.
+
+**Acknowledge** /əkˈnɑː.lɪdʒ/ — v. 承认，致谢
+> We acknowledge the funding support from the National Science Foundation.
+
+**Aggregate** /ˈæɡ.rə.ɡət/ — n. 聚集体; v. 聚集
+> We analyzed the aggregate data from five different simulation runs.
+
+**Allocate** /ˈæl.ə.keɪt/ — v. 分配
+> The scheduler will allocate resources based on job priority.
+
+**Assign** /əˈsaɪn/ — v. 指派，赋值
+> In Python, we use the = operator to assign a value to a variable.
+
+**Attach** /əˈtætʃ/ — v. 附上，连接
+> Please attach the log file when you report a bug.
+
+**Author** /ˈɔː.θɚ/ — n. 作者
+> The first author is usually the one who conducted the experiments.
+
+**Bond** /bɑːnd/ — n. 键，结合
+> The covalent bond between the silicon atoms is very strong.
+
+**Brief** /briːf/ — adj. 简短的
+> The paper begins with a brief introduction to altermagnetism.
+
+**Capable** /ˈkeɪ.pə.bəl/ — adj. 有能力的
+> The software is capable of handling millions of atoms in a single run.
+
+**Cite** /saɪt/ — v. 引用
+> It is important to cite relevant literature to support your arguments.
+
+**Cooperate** /koʊˈɑː.pə.reɪt/ — v. 合作
+> The magnetic moments cooperate to form an ordered state.
+
+**Discriminate** /dɪˈskrɪm.ə.neɪt/ — v. 区分，辨别
+> The sensor is able to discriminate between different types of radiation.
+
+**Display** /dɪˈspleɪ/ — v. 显示，展示; n. 显示
+> The results display a strong correlation between pressure and temperature.
+
+---
+
+## Sublist 6
+
+**Diverse** /dɪˈvɝːs/ — adj. 多样的
+> We tested the algorithm on a diverse set of materials.
+
+**Domain** /doʊˈmeɪn/ — n. 领域，(磁)畴
+> In ferromagnets, magnetic moments align within a magnetic domain.
+
+**Edit** /ˈed.ɪt/ — v. 编辑
+> You can edit the configuration file using Vim or Nano.
+
+**Enhance** /ɪnˈhæns/ — v. 增强，提高
+> Using a finer mesh will enhance the resolution of the simulation.
+
+**Exceed** /ɪkˈsiːd/ — v. 超过
+> The memory usage must not exceed the limit of the compute node.
+
+**Expert** /ˈek.spɝːt/ — n. 专家; adj. 专家的
+> We consulted an expert in density functional theory.
+
+**Explicit** /ɪkˈsplɪs.ɪt/ — adj. 明确的，显式的
+> The paper makes an explicit comparison between the two methods.
+
+**Federal** /ˈfed.ɚ.əl/ — adj. 联邦的
+> The project is supported by a federal grant.
+
+**Flexible** /ˈflek.sə.bəl/ — adj. 灵活的，柔韧的
+> Python is a very flexible language for scientific computing.
+
+**Furthermore** /ˌfɝː.ðɚˈmɔːr/ — adv. 此外，而且
+> Furthermore, the cost of the material is relatively low.
+
+**Ignore** /ɪɡˈnɔːr/ — v. 忽视，不理睬
+> We can ignore the relativistic effects for light elements.
+
+**Incorporate** /ɪnˈkɔːr.pɚ.eɪt/ — v. 包含，合并
+> The new model incorporates spin-orbit coupling terms.
+
+**Index** /ˈɪn.deks/ — n. 索引，指数; v. 编索引
+> The refractive index of the material changes with wavelength.
+
+**Inhibit** /ɪnˈhɪb.ɪt/ — v. 抑制，阻碍
+> High temperatures can inhibit the formation of the crystal phase.
+
+**Initiate** /ɪˈnɪʃ.i.eɪt/ — v. 开始，发起
+> The script helps initiate the calculation on the remote server.
+
+**Input** /ˈɪn.pʊt/ — n. 输入
+> Check the input parameters carefully before submitting the job.
+
+**Instruct** /ɪnˈstrʌkt/ — v. 指示，教导
+> The manual instructs users on how to compile the source code.
+
+**Intelligence** /ɪnˈtel.ə.dʒəns/ — n. 智力，情报
+> Artificial intelligence is increasingly used to predict material properties.
+
+**Interval** /ˈɪn.t̬ɚ.vəl/ — n. 间隔
+> The data was sampled at an interval of 0.5 seconds.
+
+**Lecture** /ˈlek.tʃɚ/ — n. 讲座; v. 讲课
+> Professor Smith gave a lecture on topological insulators.
+
+**Migrate** /ˈmaɪ.ɡreɪt/ — v. 迁移
+> Vacancies in the lattice can migrate under high thermal stress.
+
+**Minimum** /ˈmɪn.ə.məm/ — n. 最小值
+> The geometry optimization stops when the force reaches a minimum.
+
+**Neutral** /ˈnuː.trəl/ — adj. 中性的
+> Neutrons are electrically neutral particles.
+
+**Nevertheless** /ˌnev.ɚ.ðəˈles/ — adv. 然而，不过
+> The approximation is crude; nevertheless, it provides useful insights.
+
+**Precede** /priːˈsiːd/ — v. 在...之前
+> A theoretical prediction often precedes experimental discovery.
+
+**Presume** /prɪˈzuːm/ — v. 假定，推测
+> We presume that the sample is pure based on the X-ray data.
+
+**Rational** /ˈræʃ.ən.əl/ — adj. 合理的，理性的
+> There is a rational explanation for this anomaly in the spectrum.
+
+**Recover** /rɪˈkʌv.ɚ/ — v. 恢复，收回
+> The system automatically recovers from the error state.
+
+**Reveal** /rɪˈviːl/ — v. 揭示，显示
+> The STM images reveal a hexagonal lattice structure.
+
+**Scope** /skoʊp/ — n. 范围
+> Quantum gravity is currently outside the scope of this study.
+
+**Trace** /treɪs/ — v. 追踪; n. 痕迹，微量
+> We can trace the origin of the error to the initialization step.
+
+**Transform** /trænsˈfɔːrm/ — v. 变换，改变
+> A Fast Fourier Transform (FFT) was applied to the signal.
+
+**Transport** /ˈtræn.spɔːrt/ — n. 输运，运输
+> My research focuses on electron transport in 2D materials.
+
+**Underlie** /ˌʌn.dɚˈlaɪ/ — v. 构成...的基础
+> Symmetry principles underlie many physical laws.
+
+**Utilize** /ˈjuː.t̬əl.aɪz/ — v. 利用
+> We utilize the multiprocessing library to speed up the code.
+
+**Adapt** /əˈdæpt/ — v. 适应，改编
+> The algorithm automtically adapts the step size based on the error.
+
+**Advocate** /ˈæd.və.keɪt/ — v. 提倡; n. 拥护者
+> Many physicists advocate for open-access publishing.
+
+**Aid** /eɪd/ — n. 帮助; v. 资助，援助
+> Visual aids can help aid the understanding of complex data.
+
+**Channel** /ˈtʃæn.əl/ — n. 通道，频道
+> The electrons flow through a narrow conducting channel.
+
+**Chemical** /ˈkem.ɪ.kəl/ — adj. 化学的
+> The chemical potential determines the direction of particle flow.
+
+**Classical** /ˈklæs.ɪ.kəl/ — adj. 经典的
+> At high temperatures, the system approaches the classical limit.
+
+**Comprehensive** /ˌkɑːm.prəˈhen.sɪv/ — adj. 全面的，广泛的
+> We conducted a comprehensive review of the literature.
+
+**Comprise** /kəmˈpraɪz/ — v. 包含，由...组成
+> The unit cell comprises two manganese atoms and two tellurium atoms.
+
+**Confirm** /kənˈfɝːm/ — v. 确认，证实
+> Experimental data confirmed the theoretical prediction.
+
+**Contrary** /ˈkɑːn.tre.ri/ — adj. 相反的
+> Contrary to popular belief, the material is not a simple insulator.
+
+**Convert** /kənˈvɝːt/ — v. 转换
+> You need to convert the energy units from Rydbergs to eV.
+
+**Couple** /ˈkʌp.əl/ — v. 耦合，连接; n. 一对
+> The spins couple strongly to the lattice vibrations.
+
+**Definite** /ˈdef.ən.ət/ — adj. 确定的
+> There is a definite relationship between mass and energy.
+
+**Differentiate** /ˌdɪf.əˈren.ʃi.eɪt/ — v. 区分，微分
+> We need to differentiate between thermal noise and quantum fluctuations.
+
+**Dynamic** /daɪˈnæm.ɪk/ — adj. 动态的
+> Molecular dynamic simulations were performed to study diffusion.
+
+**Eliminate** /iˈlɪm.ə.neɪt/ — v. 消除
+> We used a filter to eliminate the high-frequency noise.
+
+**Empirical** /emˈpɪr.ɪ.kəl/ — adj. 经验的，实证的
+> The Van der Waals parameters were fitted to empirical data.
+
+**Equip** /ɪˈkwɪp/ — v. 装备，配备
+> The lab is equipped with a state-of-the-art electron microscope.
+
+**Extract** /ɪkˈstrækt/ — v. 提取
+> A Python script was used to extract the band gap values from the output.
+
+**File** /faɪl/ — n. 文件
+> Please save the coordinates in a separate structure file.
+
+**Finite** /ˈfaɪ.naɪt/ — adj. 有限的
+> We used the finite difference method to solve the equation.
+
+**Foundation** /faʊnˈdeɪ.ʃən/ — n. 基础，基金会
+> Quantum mechanics is the foundation of modern physics.
+
+**Globe** /ɡloʊb/ — n. 地球，球体
+> Scientists across the globe are working on this problem.
+
+**Grade** /ɡreɪd/ — n. 等级，分数; v. 分级
+> We used research-grade reagents for the synthesis.
+
+**Guarantee** /ˌɡer.ənˈtiː/ — v. 保证; n. 担保
+> Convergence is not guaranteed for systems with complex energy landscapes.
+
+---
+
+## Sublist 7
+
+**Hierarchy** /ˈhaɪ.rɑːr.ki/ — n. 层级，等级制度
+> The file system follows a strict directory hierarchy.
+
+**Identical** /aɪˈden.tɪ.kəl/ — adj. 完全相同的
+> The two samples yielded identical spectral signatures.
+
+**Ideology** /ˌaɪ.diˈɑː.lə.dʒi/ — n. 意识形态
+> (Rare in physics) The ideology of open science promotes sharing data freely.
+
+**Infer** /ɪnˈfɝː/ — v. 推断
+> We can infer the presence of defects from the broadening of the peak.
+
+**Innovate** /ˈɪn.ə.veɪt/ — v. 创新
+> We need to innovate new methods to overcome the bottleneck in computing speed.
+
+**Insert** /ɪnˈsɝːt/ — v. 插入
+> Please insert a vacuum layer between the slabs to prevent interaction.
+
+**Intervene** /ˌɪn.t̬ɚˈviːn/ — v. 干预，调停
+> The operator had to intervene when the cooling system failed.
+
+**Isolate** /ˈaɪ.sə.leɪt/ — v. 隔离，分离
+> We managed to isolate the signal from the background noise.
+
+**Media** /ˈmiː.di.ə/ — n. 媒介，介质 (plural of Medium)
+> Light travels at different speeds in different optical media.
+
+**Mode** /moʊd/ — n. 模式，模态
+> The phonon mode at 5 THz corresponds to the stretching of the Mn-Te bond.
+
+**Paradigm** /ˈper.ə.daɪm/ — n. 范式
+> Quantum mechanics represented a shift in the scientific paradigm.
+
+**Phenomenon** /fəˈnɑː.mə.nɑːn/ — n. 现象
+> Superconductivity is a macroscopic quantum phenomenon.
+
+**Priority** /praɪˈɔːr.ə.t̬i/ — n. 优先权
+> High-priority jobs are executed first by the scheduler.
+
+**Prohibit** /proʊˈhɪb.ɪt/ — v. 禁止，阻止
+> The Pauli exclusion principle prohibits two electrons from occupying the same state.
+
+**Publication** /ˌpʌb.ləˈkeɪ.ʃən/ — n. 出版，发表
+> The publication of the results was delayed due to peer review.
+
+**Quote** /kwoʊt/ — v. 引用; n. 引语
+> The author quotes several seminal papers in the introduction.
+
+**Release** /rɪˈliːs/ — v. 释放，发布
+> The atoms release energy in the form of photons when relaxing to the ground state.
+
+**Reverse** /rɪˈvɝːs/ — v. 颠倒; adj. 相反的
+> We applied a reverse bias voltage to the diode.
+
+**Simulate** /ˈsɪm.jə.leɪt/ — v. 模拟
+> We used VASP to simulate the electronic structure of the material.
+
+**Sole** /soʊl/ — adj. 唯一的
+> The sole purpose of this script is to convert data formats.
+
+**Somewhat** /ˈsʌm.wʌt/ — adv. 稍微，有点
+> The results were somewhat unexpected given the initial theory.
+
+**Submit** /səbˈmɪt/ — v. 提交
+> I will submit the job to the supercomputer tonight.
+
+**Successor** /səkˈses.ɚ/ — n. 继任者，后继事物
+> Python 3 is the successor to Python 2.
+
+**Survive** /sɚˈvaɪv/ — v. 幸存，残留
+> The magnetic order survives even at room temperature.
+
+**Thesis** /ˈθiː.sɪs/ — n. 论文，论点
+> The methodology is described in detail in my doctoral thesis.
+
+**Topic** /ˈtɑː.pɪk/ — n. 主题，话题
+> The topic of topological insulators is currently very popular.
+
+**Transmit** /trænsˈmɪt/ — v. 传输，发射
+> Optical fibers transmit data over long distances with low loss.
+
+**Ultimate** /ˈʌl.tə.mət/ — adj. 最终的，根本的
+> The ultimate limit of Moore's Law is approaching.
+
+**Abandon** /əˈbæn.dən/ — v. 放弃，中止
+> We had to abandon the first approach due to convergence issues.
+
+**Accompany** /əˈkʌm.pə.ni/ — v. 伴随，陪同
+> A structural phase transition often accompanies the magnetic change.
+
+**Accumulate** /əˈkjuː.mjə.leɪt/ — v. 积累，积聚
+> Errors can accumulate over long simulation times, leading to instability.
+
+**Ambiguous** /æmˈbɪɡ.ju.əs/ — adj. 模棱两可的，含糊的
+> The spectral data was ambiguous, so we repeated the measurement.
+
+**Append** /əˈpend/ — v. 附加，增补
+> The new results were appended to the existing dataset.
+
+**Appreciate** /əˈpriː.ʃi.eɪt/ — v. 理解，感激，增值
+> We appreciate the complexity of the electron-phonon interaction here.
+
+**Arbitrary** /ˈɑːr.bə.trer.i/ — adj. 任意的，武断的
+> The initial wave function was set to an arbitrary random state.
+
+**Automate** /ˈɑː.t̬ə.meɪt/ — v. 自动化
+> I wrote a Python script to automate the submission of VASP jobs.
+
+**Bias** /ˈbaɪ.əs/ — n. 偏见，偏置(电压); v. 使存偏见
+> We applied a forward bias to the junction to study the current flow.
+
+**Chart** /tʃɑːrt/ — n. 图表; v. 制图
+> The flow chart illustrates the logic of the Monte Carlo algorithm.
+
+**Clarify** /ˈkler.ə.faɪ/ — v. 澄清，阐明
+> Additional calculations are needed to clarify the origin of the band splitting.
+
+**Commodity** /kəˈmɑː.də.t̬i/ — n. 商品
+> (Rare in physics) Computing power has become a commodity in modern research.
+
+**Complement** /ˈkɑːm.plə.ment/ — v. 补充; n. 补足物
+> The theoretical model complements the experimental findings perfectly.
+
+**Conform** /kənˈfɔːrm/ — v. 符合，遵守
+> The code must conform to the C++17 standard.
+
+**Contemporary** /kənˈtem.pə.rer.i/ — adj. 当代的，同时代的
+> Contemporary research focuses heavily on 2D materials.
+
+**Contradict** /ˌkɑːn.trəˈdɪkt/ — v. 反驳，与...矛盾
+> Our findings contradict the results published last year.
+
+**Crucial** /ˈkruː.ʃəl/ — adj. 至关重要的
+> Accurate pseudopotentials are crucial for reliable DFT calculations.
+
+**Currency** /ˈkɝː.ən.si/ — n. 货币，通用性
+> This theory has gained currency (acceptance) in the physics community recently.
+
+**Denote** /dɪˈnoʊt/ — v. 表示，指示
+> The letter n is used to denote the principal quantum number.
+
+**Detect** /dɪˈtekt/ — v. 探测，发现
+> The instrument is sensitive enough to detect single photons.
+
+**Deviate** /ˈdiː.vi.eɪt/ — v. 偏离
+> The experimental points deviate significantly from the theoretical curve.
+
+**Displace** /dɪˈspleɪs/ — v. 取代，置换，位移
+> The atom was displaced from its equilibrium position by thermal vibration.
+
+**Eventual** /ɪˈven.tʃu.əl/ — adj. 最后的，最终的
+> The eventual goal is to integrate this material into memory devices.
+
+**Exhibit** /ɪɡˈzɪb.ɪt/ — v. 展示，表现出
+> The material exhibits strong altermagnetism at room temperature.
+
+**Exploit** /ɪkˈsplɔɪt/ — v. 利用，开发
+> We can exploit the symmetry of the crystal to reduce computational cost.
+
+**Fluctuate** /ˈflʌk.tʃu.eɪt/ — v. 波动
+> The total energy tends to fluctuate around the mean value.
+
+**Guideline** /ˈɡaɪd.laɪn/ — n. 指南，指导方针
+> Follow the safety guidelines when working with cryogenic liquids.
+
+**Highlight** /ˈhaɪ.laɪt/ — v. 强调，突出
+> We wish to highlight the importance of spin-orbit coupling in this system.
+
+**Implicit** /ɪmˈplɪs.ɪt/ — adj. 含蓄的，隐式的
+> The equation contains an implicit dependency on time.
+
+**Induce** /ɪnˈduːs/ — v. 诱导，引起
+> Strain can induce a phase transition in the thin film.
+
+**Inevitable** /ɪˈnev.ə.t̬ə.bəl/ — adj. 不可避免的
+> Some degree of numerical noise is inevitable in large simulations.
+
+**Infrastructure** /ˈɪn.frəˌstrʌk.tʃɚ/ — n. 基础设施
+> The university is upgrading its supercomputing infrastructure.
+
+---
+
+## Sublist 8
+
+**Inspect** /ɪnˈspekt/ — v. 检查，视察
+> You should inspect the output logs for any error messages.
+
+**Intense** /ɪnˈtens/ — adj. 强烈的
+> The sample was subjected to intense laser irradiation.
+
+**Manipulate** /məˈnɪp.jə.leɪt/ — v. 操纵，处理
+> We can manipulate the spin state of the electron using microwaves.
+
+**Minimize** /ˈmɪn.ə.maɪz/ — v. 最小化
+> The geometry optimization algorithm aims to minimize the total force.
+
+**Nuclear** /ˈnuː.kliː.ɚ/ — adj. 核的，核心的
+> Nuclear magnetic resonance (NMR) is a powerful analytical tool.
+
+**Offset** /ˌɑːfˈset/ — v. 抵消; n. 偏移量
+> The systematic error was offset by calibrating the instrument.
+
+**Paragraph** /ˈper.ə.ɡræf/ — n. 段落
+> The first paragraph of the discussion summarizes the main results.
+
+**Plus** /plʌs/ — prep. 加; n. 正号，优势
+> The energy is E0​ plus the kinetic term.
+
+**Practitioner** /prækˈtɪʃ.ən.ɚ/ — n. 从业者，实践者
+> For a practitioner of DFT, understanding pseudopotentials is essential.
+
+**Predominant** /prɪˈdɑː.mə.nənt/ — adj. 占主导地位的，显著的
+> Phonon scattering is the predominant mechanism limiting mobility here.
+
+**Prospect** /ˈprɑː.spekt/ — n. 前景，展望
+> The prospect of using MnTe in spintronic devices is very promising.
+
+**Radical** /ˈræd.ɪ.kəl/ — adj. 根本的，激进的; n. (自由)基
+> A radical change in the experimental setup was required.
+
+**Random** /ˈræn.dəm/ — adj. 随机的
+> We used a random number generator to initialize the velocities.
+
+**Reinforce** /ˌriː.ɪnˈfɔːrs/ — v. 加强，证实
+> These new findings reinforce our previous hypothesis.
+
+**Restore** /rɪˈstɔːr/ — v. 恢复，修复
+> We had to restore the database from a backup after the crash.
+
+**Revise** /rɪˈvaɪz/ — v. 修订，复习
+> We need to revise the manuscript based on the referee's comments.
+
+**Schedule** /ˈskedʒ.uːl/ — n. 时间表; v. 安排
+> The job is scheduled to run on the high-memory node tonight.
+
+**Tension** /ˈten.ʃən/ — n. 张力，紧张
+> Surface tension affects the shape of the liquid droplet.
+
+**Terminate** /ˈtɝː.mə.neɪt/ — v. 终止，结束
+> The script will terminate automatically if convergence is not reached.
+
+**Theme** /θiːm/ — n. 主题
+> The central theme of the conference is topological materials.
+
+**Thereby** /ˌðerˈbaɪ/ — adv. 从而，因此
+> We optimized the code, thereby reducing the calculation time by 40%.
+
+**Uniform** /ˈjuː.nə.fɔːrm/ — adj. 统一的，均匀的
+> A uniform magnetic field was applied perpendicular to the sample.
+
+**Vehicle** /ˈviː.ə.kəl/ — n. 车辆，传播媒介
+> Physical Review B is a common vehicle for publishing condensed matter research.
+
+**Via** /ˈvaɪ.ə/ — prep. 经由，通过
+> The data was transferred via a secure SSH connection.
+
+**Virtual** /ˈvɝː.tʃu.əl/ — adj. 虚拟的
+> We created a virtual environment to manage the Python dependencies.
+
+**Visual** /ˈvɪʒ.u.əl/ — adj. 视觉的
+> Visual inspection of the crystal structure revealed a defect.
+
+**Widespread** /ˌwaɪdˈspred/ — adj. 广泛的
+> Density Functional Theory has found widespread use in materials science.
+
+**Accommodate** /əˈkɑː.mə.deɪt/ — v. 容纳，适应
+> The new server can accommodate larger memory requirements for our jobs.
+
+**Analogy** /əˈnæl.ə.dʒi/ — n. 类比
+> The flow of electricity is often explained using a water pipe analogy.
+
+**Anticipate** /ænˈtɪs.ə.peɪt/ — v. 预期，预料
+> We anticipate that the results will be published by the end of the year.
+
+**Assure** /əˈʃʊr/ — v. 保证，确信
+> We performed convergence tests to assure the accuracy of the forces.
+
+**Attain** /əˈteɪn/ — v. 达到，获得
+> The system attains equilibrium after approximately 2 picoseconds.
+
+**Behalf** /bɪˈhæf/ — n. 代表，利益
+> I am submitting this abstract on behalf of the research group.
+
+**Bulk** /bʌlk/ — n. 体(材料)，大部分; adj. 散装的
+> The properties of the bulk material differ from those of the thin film.
+
+**Cease** /siːs/ — v. 停止，结束
+> The iterations will cease once the energy difference is below the threshold.
+
+**Coherent** /koʊˈhɪr.ənt/ — adj. 相干的，连贯的
+> Lasers produce highly coherent light.
+
+**Coincide** /ˌkoʊ.ɪnˈsaɪd/ — v. 重合，同时发生
+> The peak of the spectrum coincides with the theoretical prediction.
+
+**Commence** /kəˈmens/ — v. 开始 (Formal)
+> The simulation will commence automatically after the queue clears.
+
+**Compatible** /kəmˈpæt̬.ə.bəl/ — adj. 兼容的
+> The input file format is not compatible with the older version of the software.
+
+**Concurrent** /kənˈkɝː.ənt/ — adj. 同时发生的，并发的
+> We ran concurrent simulations on multiple nodes to save time.
+
+**Confine** /kənˈfaɪn/ — v. 限制，禁闭
+> The electrons are confined to a two-dimensional quantum well.
+
+**Controversy** /ˈkɑːn.trə.vɝː.si/ — n. 争议
+> There is some controversy regarding the mechanism of the superconductivity here.
+
+**Converse** /ˈkɑːn.vɝːs/ — n. 相反的事物; adj. 相反的
+> The converse is also true: increasing pressure reduces the volume.
+
+**Device** /dɪˈvaɪs/ — n. 装置，设备
+> We simulated the transport properties of a nanoscale spintronic device.
+
+**Devote** /dɪˈvoʊt/ — v. 致力于，奉献
+> He plans to devote his PhD to the study of topological materials.
+
+**Diminish** /dɪˈmɪn.ɪʃ/ — v. 减少，变小
+> The magnetic moment diminishes as the temperature approaches the Curie point.
+
+**Distort** /dɪˈstɔːrt/ — v. 扭曲，变形
+> The crystal lattice is slightly distorted due to the strain.
+
+**Duration** /duˈreɪ.ʃən/ — n. 持续时间
+> The duration of the laser pulse was 50 femtoseconds.
+
+**Erosion** /ɪˈroʊ.ʒən/ — n. 腐蚀，侵蚀
+> (More common in geology/chemistry) We checked for electrode erosion after the experiment.
+
+**Ethic** /ˈeθ.ɪk/ — n. 伦理，道德
+> Scientific ethics require that we report data honestly.
+
+**Format** /ˈfɔːr.mæt/ — n. 格式; v. 格式化
+> Please save the image in a high-resolution vector format (e.g., PDF or SVG).
+
+**Found** /faʊnd/ — v. 建立，创立
+> The institute was founded in 1950.
+
+**Inherent** /ɪnˈhɪr.ənt/ — adj. 固有的，内在的
+> Numerical noise is inherent in any floating-point calculation.
+
+**Insight** /ˈɪn.saɪt/ — n. 洞察力，见解
+> The simulation provides valuable insight into the atomic-scale mechanisms.
+
+**Integral** /ˈɪn.t̬ə.ɡrəl/ — n. 积分; adj. 不可或缺的
+> We calculated the line integral of the electric field.
+
+**Intermediate** /ˌɪn.t̬ɚˈmiː.di.ət/ — adj. 中间的
+> An intermediate phase appears during the transition process.
+
+**Manual** /ˈmæn.ju.əl/ — n. 手册; adj. 手工的
+> Refer to the user manual for details on the input parameters.
+
+**Mature** /məˈtʊr/ — adj. 成熟的; v. 成熟
+> This technology is not yet mature enough for commercial application.
+
+**Mediate** /ˈmiː.di.eɪt/ — v. 调解，介导
+> Phonons mediate the attractive force between electrons in superconductors.
+
+**Medium** /ˈmiː.di.əm/ — n. 介质，媒介
+> The speed of sound depends on the density of the medium.
+
+---
+
+## Sublist 9
+
+**Military** /ˈmɪl.ə.ter.i/ — adj. 军事的
+> (Context) Many early computers were funded for military purposes.
+
+**Minimal** /ˈmɪn.ə.məl/ — adj. 最小的
+> We adjusted the parameters to ensure minimal energy loss.
+
+**Mutual** /ˈmjuː.tʃu.əl/ — adj. 相互的
+> The particles exert a mutual repulsion force on each other.
+
+**Norm** /nɔːrm/ — n. 规范，范数
+> We calculated the Euclidean norm of the vector.
+
+**Overlap** /ˌoʊ.vɚˈlæp/ — v. 重叠; n. 重叠
+> The orbitals of the two atoms overlap to form a chemical bond.
+
+**Passive** /ˈpæs.ɪv/ — adj. 被动的
+> A passive component, like a resistor, does not generate energy.
+
+**Portion** /ˈpɔːr.ʃən/ — n. 部分
+> A significant portion of the code is dedicated to error handling.
+
+**Preliminary** /prɪˈlɪm.ə.ner.i/ — adj. 初步的
+> Preliminary results suggest that the material is a semiconductor.
+
+**Protocol** /ˈproʊ.t̬ə.kɑːl/ — n. 协议，草案
+> The data transfer follows the TCP/IP protocol.
+
+**Qualitative** /ˈkwɑː.lə.teɪ.t̬ɪv/ — adj. 定性的
+> We provided a qualitative explanation for the observed trend.
+
+**Refine** /rɪˈfaɪn/ — v. 提炼，改进
+> We need to refine the mesh to capture the sharp gradient.
+
+**Relax** /rɪˈlæks/ — v. 放松，弛豫
+> We allowed the atomic structure to relax to its ground state.
+
+**Restrain** /rɪˈstreɪn/ — v. 抑制，约束
+> The atoms are restrained by the harmonic potential.
+
+**Revolution** /ˌrev.əˈluː.ʃən/ — n. 革命，旋转
+> The discovery of quantum mechanics caused a revolution in physics.
+
+**Rigid** /ˈrɪdʒ.ɪd/ — adj. 刚性的，严格的
+> In the rigid band approximation, the band structure does not change with doping.
+
+**Route** /ruːt/ — n. 路径，途径
+> We explored a different synthetic route to produce pure MnTe.
+
+**Scenario** /səˈner.i.oʊ/ — n. 设想，方案
+> We simulated a worst-case scenario where the cooling system fails.
+
+**Sphere** /sfɪr/ — n. 球体，范围
+> The integration was performed over a sphere in momentum space.
+
+**Subordinate** /səˈbɔːr.dən.ət/ — adj. 次要的，下级的
+> This effect is subordinate to the dominant Coulomb interaction.
+
+**Supplement** /ˈsʌp.lə.ment/ — n. 补充; v. 增补
+> The text is supplemented by a detailed appendix of formulas.
+
+**Suspend** /səˈspend/ — v. 悬浮，暂停
+> The particles were suspended in a fluid solution.
+
+**Team** /tiːm/ — n. 团队
+> Our research team consists of physicists and computer scientists.
+
+**Temporary** /ˈtem.pə.rer.i/ — adj. 暂时的
+> We used a temporary file to store the intermediate data.
+
+**Trigger** /ˈtrɪɡ.ɚ/ — v. 触发，引起
+> A laser pulse was used to trigger the phase transition.
+
+**Unify** /ˈjuː.nə.faɪ/ — v. 统一
+> Maxwell's equations unify the theories of electricity and magnetism.
+
+**Violate** /ˈvaɪ.ə.leɪt/ — v. 违反
+> This result appears to violate the second law of thermodynamics.
+
+**Vision** /ˈvɪʒ.ən/ — n. 视力，愿景
+> Our vision is to create a fully fault-tolerant quantum computer.
+
+**Adjacent** /əˈdʒeɪ.sənt/ — adj. 邻近的
+> The spin interacts with its adjacent neighbors in the lattice.
+
+**Assemble** /əˈsem.bəl/ — v. 集合，组装
+> We need to assemble the experimental apparatus before calibrating it.
+
+**Collapse** /kəˈlæps/ — v. 坍塌，瓦解
+> In quantum mechanics, the wavefunction collapses upon measurement.
+
+**Colleague** /ˈkɑː.liːɡ/ — n. 同事
+> I discussed the simulation results with my colleague in the lab.
+
+**Compile** /kəmˈpaɪl/ — v. 编译，汇编
+> You must compile the VASP source code using the Intel Fortran compiler.
+
+**Conceive** /kənˈsiːv/ — v. 构想，设想
+> It is difficult to conceive of a universe without the laws of thermodynamics.
+
+**Convince** /kənˈvɪns/ — v. 说服
+> The data was strong enough to convince the reviewers of our theory.
+
+**Depress** /dɪˈpres/ — v. 降低，压下
+> Impurities can depress the freezing point of the liquid.
+
+**Encounter** /ɪnˈkaʊn.t̬ɚ/ — v. 遇到
+> We encountered a segmentation fault when running the script.
+
+**Enormous** /əˈnɔːr.məs/ — adj. 巨大的
+> The calculation requires an enormous amount of disk space.
+
+**Forthcoming** /ˈfɔːrθˌkʌm.ɪŋ/ — adj. 即将到来的
+> The results will be presented in a forthcoming paper.
+
+**Incline** /ɪnˈklaɪn/ — v. 倾向于; n. 斜坡
+> We incline to the view that the effect is purely magnetic.
+
+**Integrity** /ɪnˈteɡ.rə.t̬i/ — n. 完整性，正直
+> We must check the integrity of the data file after the transfer.
+
+**Intrinsic** /ɪnˈtrɪn.zɪk/ — adj. 本征的，固有的
+> Silicon is an intrinsic semiconductor at high temperatures.
+
+**Invoke** /ɪnˈvoʊk/ — v. 调用，引用
+> The Python script invokes a C++ subroutine for the heavy calculations.
+
+**Levy** /ˈlev.i/ — n. 税款; v. 征收
+> (Rare in physics) A levy was placed on imported scientific equipment.
+
+**Likewise** /ˈlaɪk.waɪz/ — adv. 同样地
+> The first sample was annealed; likewise, the second sample underwent heat treatment.
+
+**Nonetheless** /ˌnʌn.ðəˈles/ — adv. 尽管如此
+> The model is simple; nonetheless, it captures the essential physics.
+
+**Notwithstanding** /ˌnɑːt.wɪðˈstæn.dɪŋ/ — prep. 尽管
+> Notwithstanding the errors, the general trend is clear.
+
+**Odd** /ɑːd/ — adj. 奇数的，古怪的
+> The wave function has odd parity with respect to inversion.
+
+**Ongoing** /ˈɑːnˌɡoʊ.ɪŋ/ — adj. 进行中的
+> There is an ongoing investigation into the cause of the system crash.
+
+**Panel** /ˈpæn.əl/ — n. 面板，专家组
+> The user interface has a control panel for setting parameters.
+
+**Persist** /pɚˈsɪst/ — v. 坚持，持续
+> The magnetic order persists up to 350 Kelvin.
+
+**Pose** /poʊz/ — v. 造成，提出
+> This problem poses a significant challenge to current computational methods.
+
+**Reluctance** /rɪˈlʌk.təns/ — n. 磁阻，不情愿
+> Magnetic reluctance is analogous to electrical resistance.
+
+**So-called** /ˌsoʊˈkɑːld/ — adj. 所谓的
+> We investigated the so-called "anomalous Hall effect."
+
+**Straightforward** /ˌstreɪtˈfɔːr.wɚd/ — adj. 直接的，简单的
+> The installation process for the library is quite straightforward.
+
+**Undergo** /ˌʌn.dɚˈɡoʊ/ — v. 经历，经受
+> The material undergoes a phase transition at critical temperature Tc​.
+
+**Whereby** /werˈbaɪ/ — adv. 凭此，借以
+> We developed a method whereby the noise can be filtered out efficiently.
+
+---
